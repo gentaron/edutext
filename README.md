@@ -24,7 +24,12 @@ EDU Text は Eternal Dominion Universe（EDU）のストーリー・世界観テ
 |---------|-----------|------|
 | **キャラクターストーリー** | `LAYLA.txt`, `LAYLA_JP.txt`, `IRIS_1.txt`–`IRIS_4.txt` | Layla, Iris, Jen, Myu, Gentaro, Diana, Jun 等の物語 |
 | **世界観・歴史** | `worldedu.txt`, `unified-history.txt`, `eduuni.txt` | E16 連星系の統一歴史と世界設定 |
+| **天文・居住環境正典** | `e16-world-canon.txt`, `e16-world-canon_EN.txt` | 恒星・軌道・地表・夜空・E暦の採用設定と観測出典 |
 | **キャラクター統計** | `laylastats.txt`, `kateclaudiaandlilliesteiner.txt` | キャラクターのステータスデータ |
+
+### 天文・居住環境の正典
+
+[e16-world-canon.txt](e16-world-canon.txt)（[English](e16-world-canon_EN.txt)）を恒星・軌道・ハロー・昼夜・暦の基準とします。旧本文や補遺と競合する場合は、この正典を優先します。E暦は地球由来の行政暦で、惑星の公転周期とは独立です。
 
 ### ファイル命名規則
 
@@ -67,7 +72,12 @@ EDU Text is the central content repository for story and lore text files of the 
 |----------|----------|-------------|
 | **Character Stories** | `LAYLA.txt`, `IRIS_1.txt`–`IRIS_4.txt` | Stories for Layla, Iris, Jen, Myu, Gentaro, Diana, Jun, etc. |
 | **World & History** | `worldedu.txt`, `unified-history.txt` | Unified history and world settings of the E16 binary star system |
+| **Astronomy & Environment Canon** | `e16-world-canon.txt`, `e16-world-canon_EN.txt` | Adopted stellar, orbital, surface, sky and calendar settings with research sources |
 | **Character Stats** | `laylastats.txt` | Character status data |
+
+### Astronomy and Environment Canon
+
+[e16-world-canon_EN.txt](e16-world-canon_EN.txt) ([日本語](e16-world-canon.txt)) governs stars, orbits, halo composition, day/night and calendars. It takes precedence over conflicting legacy text and supplements. The E calendar is Earth-derived and administrative, independent of the planet's orbital period.
 
 ### Naming Convention
 

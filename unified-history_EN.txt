@@ -1,4 +1,5 @@
 ═══════════════════════════════ ════════════════════════════════
+Astronomy and environment canon (2026-10-09): e16-world-canon_EN.txt governs stars, orbits, halo composition, day/night and calendars. Historical E-year labels use an administrative calendar.
 EDU integrated world history — 5 major civilizations and E16 star system
 ═══════════════════════════════ ════════════════════════════════
 
@@ -28,39 +29,7 @@ Chapter 1: Structure of the Universe — M104 Galaxy and 8 Great Civilizations
 
 ── 1.1 Overview of M104 galaxy ──
 
-Galaxy M104 (also known as the Sombrero Galaxy) is located approximately 31 million light years in the direction of the constellation Muromana.
-
-═══════════════════════════════ ════════════════════════════════
-EDU integrated world history — 5 major civilizations and E16 star system
-═══════════════════════════════ ════════════════════════════════
-
-Canonical Conformance Declaration
-This book is based on the EDU integrated version Wiki (5 principles of consistency, 3 confirmed corrections),
-Historical development of the eight major civilizations in the M104 galaxy (Sombrero galaxy)
-An integrated description of the dynamics of the E16 star system (where Symphony of Stars is located).
-The rise and fall of the five great civilizations, the Apollo Dominion War, the domination of Evatron,
-The cosmic context that permeates AURALIS's activities is treated as canon.
-
-Five principles of integrity:
-① Gigapolis is the same city in all eras (Evapolis is a unilateral name from Evatron side)
-②The Great Crescent Region is the eastern continent of Symphony of Stars (proper name)
-③Alpha Venom is the successor of Evatron Σ-Unit (E420→E475→E500)
-④ Two-stage development of AURALIS ensures consistency with the Mina era
-⑤ World Federation Summit E524 guarantees the historical necessity of Liminal Forge
-
-Confirmed fix:
-① Mina calls it "Gigapolis" because Evapolis is just a unilateral name on Evatron's side.
-②The first generation of AURALIS had a small number of people, mainly Kate and Lillie, instead of five people.
-③Rayla is not given a long life by cybernetics, but is revived from cryopreservation, and has the appearance and physical strength of the same age as Mina and the others.
-
-
-═══════════════════════════════ ════════════════════════════════
-Chapter 1: Structure of the Universe — M104 Galaxy and 8 Great Civilizations
-═══════════════════════════════ ════════════════════════════════
-
-── 1.1 Overview of M104 galaxy ──
-
-Galaxy M104 (also known as the Sombrero Galaxy) is located approximately 31 million light years in the direction of the constellation Muromana.
+M104, the Sombrero Galaxy, lies approximately 30 million light-years away in the direction of Virgo.
 
 ═══════════════════════════════ ════════════════════════════════
 EDU integrated world history — 5 major civilizations and E16 star system
@@ -92,13 +61,44 @@ Chapter 1: Structure of the Universe — M104 Galaxy and 8 Great Civilizations
 
 ── 1.1 Overview of M104 galaxy ──
 
-Galaxy M104 (also known as the Sombrero Galaxy) is located approximately 31 million light years in the direction of the constellation Muromana.
+M104, the Sombrero Galaxy, lies approximately 30 million light-years away in the direction of Virgo.
 
-It is a barred spiral galaxy. It has a diameter of about 50,000 light years and a mass equivalent to about 80% of the Milky Way galaxy.
-With a supermassive black hole (1 billion times the mass of the sun) at the center as its core,
-It has tens of billions of stars and an unknown number of planetary systems.
-The halo region of M104 galaxy has low metal content and star formation activity has almost stopped.
-The old stellar environment is widespread, and the E16 binary star system is located in this area.
+═══════════════════════════════ ════════════════════════════════
+EDU integrated world history — 5 major civilizations and E16 star system
+═══════════════════════════════ ════════════════════════════════
+
+Canonical Conformance Declaration
+This book is based on the EDU integrated version Wiki (5 principles of consistency, 3 confirmed corrections),
+Historical development of the eight major civilizations in the M104 galaxy (Sombrero galaxy)
+An integrated description of the dynamics of the E16 star system (where Symphony of Stars is located).
+The rise and fall of the five great civilizations, the Apollo Dominion War, the domination of Evatron,
+The cosmic context that permeates AURALIS's activities is treated as canon.
+
+Five principles of integrity:
+① Gigapolis is the same city in all eras (Evapolis is a unilateral name from Evatron side)
+②The Great Crescent Region is the eastern continent of Symphony of Stars (proper name)
+③Alpha Venom is the successor of Evatron Σ-Unit (E420→E475→E500)
+④ Two-stage development of AURALIS ensures consistency with the Mina era
+⑤ World Federation Summit E524 guarantees the historical necessity of Liminal Forge
+
+Confirmed fix:
+① Mina calls it "Gigapolis" because Evapolis is just a unilateral name on Evatron's side.
+②The first generation of AURALIS had a small number of people, mainly Kate and Lillie, instead of five people.
+③Rayla is not given a long life by cybernetics, but is revived from cryopreservation, and has the appearance and physical strength of the same age as Mina and the others.
+
+
+═══════════════════════════════ ════════════════════════════════
+Chapter 1: Structure of the Universe — M104 Galaxy and 8 Great Civilizations
+═══════════════════════════════ ════════════════════════════════
+
+── 1.1 Overview of M104 galaxy ──
+
+M104, the Sombrero Galaxy, lies approximately 30 million light-years away in the direction of Virgo.
+
+M104 combines a bright central bulge, a dusty disk and an extended halo; it should not be classified unequivocally as a barred spiral.
+Its central supermassive black hole is relatively quiet. Star formation is modest but has not stopped throughout the galaxy.
+Observed halo fields contain many metal-rich old stars.
+E16 is a fictional binary placed in this halo, outside the dense core of a globular cluster.
 Advanced civilizations are densely packed in the galactic disk, extending from the galactic center to the outer edge.
 There is a tendency for the density of civilization to gradually decrease.
 
@@ -128,11 +128,10 @@ This is the transition to the current multipolar order.
 
 ── 1.2 Location and characteristics of the eight major civilizations ──
 
-It is a barred spiral galaxy. It has a diameter of about 50,000 light years and a mass equivalent to about 80% of the Milky Way galaxy.
-With a supermassive black hole (1 billion times the mass of the sun) at the center as its core,
-It has tens of billions of stars and an unknown number of planetary systems.
-The halo region of M104 galaxy has low metal content and star formation activity has almost stopped.
-The old stellar environment is widespread, and the E16 binary star system is located in this area.
+M104 combines a bright central bulge, a dusty disk and an extended halo; it should not be classified unequivocally as a barred spiral.
+Its central supermassive black hole is relatively quiet. Star formation is modest but has not stopped throughout the galaxy.
+Observed halo fields contain many metal-rich old stars.
+E16 is a fictional binary placed in this halo, outside the dense core of a globular cluster.
 Advanced civilizations are densely packed in the galactic disk, extending from the galactic center to the outer edge.
 There is a tendency for the density of civilization to gradually decrease.
 
@@ -162,11 +161,10 @@ This is the transition to the current multipolar order.
 
 ── 1.2 Location and characteristics of the eight major civilizations ──
 
-It is a barred spiral galaxy. It has a diameter of about 50,000 light years and a mass equivalent to about 80% of the Milky Way galaxy.
-With a supermassive black hole (1 billion times the mass of the sun) at the center as its core,
-It has tens of billions of stars and an unknown number of planetary systems.
-The halo region of M104 galaxy has low metal content and star formation activity has almost stopped.
-The old stellar environment is widespread, and the E16 binary star system is located in this region.
+M104 combines a bright central bulge, a dusty disk and an extended halo; it should not be classified unequivocally as a barred spiral.
+Its central supermassive black hole is relatively quiet. Star formation is modest but has not stopped throughout the galaxy.
+Observed halo fields contain many metal-rich old stars.
+E16 is a fictional binary placed in this halo, outside the dense core of a globular cluster.
 Advanced civilizations are densely packed in the galactic disk, extending from the galactic center to the outer edge.
 There is a tendency for the density of civilization to gradually decrease.
 
@@ -693,20 +691,20 @@ Fendraians (a technologically oriented group of Norse people), Archeans (a group
 A diverse group of immigrants, Andromeda → Leo → Sextance → Triangle
 → Immigration has begun via the E16 binary star system relay route.
 
-The E16 star system is a double binary star system located in the halo region of the M104 galaxy.
+E16 is a two-star binary in the halo of M104.
 
-Main star Ea16 (spectral type K2, mass 1.2 solar masses) and companion star Eb16
-(spectral type M3, mass 0.4 solar masses) at a distance of about 0.8 astronomical units.
-Draw an elliptical orbit.
-The central planet “Symphony of Stars” is Ea16.
-A terrestrial planet located within the habitable zone, with an average surface temperature of 15℃ and a gravity of 0.92G.
-The atmosphere was mainly composed of oxygen and nitrogen, making it an ideal habitat for early settlers.
+Ea16 is K2V, approximately 0.82 solar masses and 0.37 solar luminosities; Eb16 is near M3V, approximately 0.4 solar masses and 0.012 solar luminosities.
+Their relative semimajor axis is approximately 10 AU, eccentricity 0.1 and binary period approximately 29 Earth years.
+Symphony of Stars orbits Ea16 alone at approximately 0.62 AU, with a period of approximately 197 Earth days.
+Primary irradiance is approximately 96-97% of Earth's; oceans, clouds and greenhouse effects support an adopted mean of 15 degrees C at 0.92G.
+Representative sea-level pressure is approximately 1 bar, with approximately 21% oxygen and 78% nitrogen; oceans and a biosphere support atmospheric cycling.
+See e16-world-canon_EN.txt for adopted values and their distinction from real observations.
 
 The first group of 1,000 people arrived at Symphony of Stars in E0 (AD3500).
-In year E1 (AD3501), the E calendar was established to match the rotation period of Ea16 (44 hours 4 minutes).
-One year is based on the orbital period of Ea16 (approximately 320 Earth days),
-Divided into 10 month “phases”. Each phase is 32 days,
-It was subdivided into four "quarters."
+In E1 (AD3501), an Earth-derived administrative E calendar was established.
+E years follow corresponding AD years: 365 standard days, or 366 in leap years; a standard day is 24 Earth hours.
+Ten 36-day phases are followed by five adjustment days, or six in leap years. Each phase has four nine-day quarters.
+AD year label = 3500 + E year. The planet's approximately 197-Earth-day orbit and 44-hour-4-minute mean solar day are independent units.
 
 [Construction of Timur Shah and Persephone]
 Timur Shah, the leader of the Immigrant Group, is a proponent of the 10-dimensional Horezm theory.
@@ -831,20 +829,20 @@ Fendraians (a technologically oriented group of Norse people), Archeans (a group
 A diverse group of immigrants, Andromeda → Leo → Sextance → Triangle
 → Immigration has begun via the E16 binary star system relay route.
 
-The E16 star system is a double binary star system located in the halo region of the M104 galaxy.
+E16 is a two-star binary in the halo of M104.
 
-Main star Ea16 (spectral type K2, mass 1.2 solar masses) and companion star Eb16
-(spectral type M3, mass 0.4 solar masses) at a distance of about 0.8 astronomical units.
-Draw an elliptical orbit.
-The central planet “Symphony of Stars” is Ea16.
-A terrestrial planet located within the habitable zone, with an average surface temperature of 15℃ and a gravity of 0.92G.
-The atmosphere was mainly composed of oxygen and nitrogen, making it an ideal habitat for early settlers.
+Ea16 is K2V, approximately 0.82 solar masses and 0.37 solar luminosities; Eb16 is near M3V, approximately 0.4 solar masses and 0.012 solar luminosities.
+Their relative semimajor axis is approximately 10 AU, eccentricity 0.1 and binary period approximately 29 Earth years.
+Symphony of Stars orbits Ea16 alone at approximately 0.62 AU, with a period of approximately 197 Earth days.
+Primary irradiance is approximately 96-97% of Earth's; oceans, clouds and greenhouse effects support an adopted mean of 15 degrees C at 0.92G.
+Representative sea-level pressure is approximately 1 bar, with approximately 21% oxygen and 78% nitrogen; oceans and a biosphere support atmospheric cycling.
+See e16-world-canon_EN.txt for adopted values and their distinction from real observations.
 
 The first group of 1,000 people arrived at Symphony of Stars in E0 (AD3500).
-In year E1 (AD3501), the E calendar was established to match the rotation period of Ea16 (44 hours 4 minutes).
-One year is based on the orbital period of Ea16 (approximately 320 Earth days),
-Divided into 10 month “phases”. Each phase is 32 days,
-It was subdivided into four "quarters."
+In E1 (AD3501), an Earth-derived administrative E calendar was established.
+E years follow corresponding AD years: 365 standard days, or 366 in leap years; a standard day is 24 Earth hours.
+Ten 36-day phases are followed by five adjustment days, or six in leap years. Each phase has four nine-day quarters.
+AD year label = 3500 + E year. The planet's approximately 197-Earth-day orbit and 44-hour-4-minute mean solar day are independent units.
 
 [Construction of Timur Shah and Persephone]
 Timur Shah, the leader of the Immigrant Group, is a proponent of the 10-dimensional Horezm theory.
@@ -1039,7 +1037,7 @@ Fendraians (a technologically oriented group of Norse people), Archeans (a group
 A diverse group of immigrants, Andromeda → Leo → Sextance → Triangle
 → Immigration has begun via the E16 binary star system relay route.
 
-The E16 star system is a double binary star system located in the halo region of the M104 galaxy.
+E16 is a two-star binary in the halo of M104.
 
 [Dominion / Selinopolis]
 Its parent body is the super-huge city "Gigapolis" that existed in the E16 star system.
@@ -1075,18 +1073,18 @@ A 28-year-old young monarch who sits on the throne of the Vulcan Empire. Proud o
 He has well-trained muscles and smooth skin. His personality is quiet and kind,
 While adhering to the empire's strict rules, it ruled flexibly.
 
-Main star Ea16 (spectral type K2, mass 1.2 solar masses) and companion star Eb16
-(spectral type M3, mass 0.4 solar masses) at a distance of about 0.8 astronomical units.
-Draw an elliptical orbit.
-The central planet “Symphony of Stars” is Ea16.
-A terrestrial planet located within the habitable zone, with an average surface temperature of 15℃ and a gravity of 0.92G.
-The atmosphere was mainly composed of oxygen and nitrogen, making it an ideal habitat for early settlers.
+Ea16 is K2V, approximately 0.82 solar masses and 0.37 solar luminosities; Eb16 is near M3V, approximately 0.4 solar masses and 0.012 solar luminosities.
+Their relative semimajor axis is approximately 10 AU, eccentricity 0.1 and binary period approximately 29 Earth years.
+Symphony of Stars orbits Ea16 alone at approximately 0.62 AU, with a period of approximately 197 Earth days.
+Primary irradiance is approximately 96-97% of Earth's; oceans, clouds and greenhouse effects support an adopted mean of 15 degrees C at 0.92G.
+Representative sea-level pressure is approximately 1 bar, with approximately 21% oxygen and 78% nitrogen; oceans and a biosphere support atmospheric cycling.
+See e16-world-canon_EN.txt for adopted values and their distinction from real observations.
 
 The first group of 1,000 people arrived at Symphony of Stars in E0 (AD3500).
-In year E1 (AD3501), the E calendar was established to match the rotation period of Ea16 (44 hours 4 minutes).
-One year is based on the orbital period of Ea16 (approximately 320 Earth days),
-Divided into 10 month “phases”. Each phase is 32 days,
-It was subdivided into four "quarters."
+In E1 (AD3501), an Earth-derived administrative E calendar was established.
+E years follow corresponding AD years: 365 standard days, or 366 in leap years; a standard day is 24 Earth hours.
+Ten 36-day phases are followed by five adjustment days, or six in leap years. Each phase has four nine-day quarters.
+AD year label = 3500 + E year. The planet's approximately 197-Earth-day orbit and 44-hour-4-minute mean solar day are independent units.
 
 [Construction of Timur Shah and Persephone]
 Timur Shah, the leader of the Immigrant Group, is a proponent of the 10-dimensional Horezm theory.
@@ -1142,20 +1140,20 @@ Fendraians (a technologically oriented group of Norse people), Archeans (a group
 A diverse group of immigrants, Andromeda → Leo → Sextance → Triangle
 → Immigration has begun via the E16 binary star system relay route.
 
-The E16 star system is a double binary star system located in the halo region of the M104 galaxy.
+E16 is a two-star binary in the halo of M104.
 
-Main star Ea16 (spectral type K2, mass 1.2 solar masses) and companion star Eb16
-(spectral type M3, mass 0.4 solar masses) at a distance of about 0.8 astronomical units.
-Draw an elliptical orbit.
-The central planet “Symphony of Stars” is Ea16.
-A terrestrial planet located within the habitable zone, with an average surface temperature of 15℃ and a gravity of 0.92G.
-The atmosphere was mainly composed of oxygen and nitrogen, making it an ideal habitat for early settlers.
+Ea16 is K2V, approximately 0.82 solar masses and 0.37 solar luminosities; Eb16 is near M3V, approximately 0.4 solar masses and 0.012 solar luminosities.
+Their relative semimajor axis is approximately 10 AU, eccentricity 0.1 and binary period approximately 29 Earth years.
+Symphony of Stars orbits Ea16 alone at approximately 0.62 AU, with a period of approximately 197 Earth days.
+Primary irradiance is approximately 96-97% of Earth's; oceans, clouds and greenhouse effects support an adopted mean of 15 degrees C at 0.92G.
+Representative sea-level pressure is approximately 1 bar, with approximately 21% oxygen and 78% nitrogen; oceans and a biosphere support atmospheric cycling.
+See e16-world-canon_EN.txt for adopted values and their distinction from real observations.
 
 The first group of 1,000 people arrived at Symphony of Stars in E0 (AD3500).
-In year E1 (AD3501), the E calendar was established to match the rotation period of Ea16 (44 hours 4 minutes).
-One year is based on the orbital period of Ea16 (approximately 320 Earth days),
-Divided into 10 month “phases”. Each phase is 32 days,
-It was subdivided into four "quarters."
+In E1 (AD3501), an Earth-derived administrative E calendar was established.
+E years follow corresponding AD years: 365 standard days, or 366 in leap years; a standard day is 24 Earth hours.
+Ten 36-day phases are followed by five adjustment days, or six in leap years. Each phase has four nine-day quarters.
+AD year label = 3500 + E year. The planet's approximately 197-Earth-day orbit and 44-hour-4-minute mean solar day are independent units.
 
 [Construction of Timur Shah and Persephone]
 Timur Shah, the leader of the Immigrant Group, is a proponent of the 10-dimensional Horezm theory.
@@ -1294,18 +1292,18 @@ These factors formed Granbell's potential power.
 Elesion is steadily emerging in the fields of medical technology and environmental regeneration technology.
 Many small civilizations sought its technical assistance.
 
-Main star Ea16 (spectral type K2, mass 1.2 solar masses) and companion star Eb16
-(spectral type M3, mass 0.4 solar masses) at a distance of about 0.8 astronomical units.
-Draw an elliptical orbit.
-The central planet “Symphony of Stars” is Ea16.
-A terrestrial planet located within the habitable zone, with an average surface temperature of 15℃ and a gravity of 0.92G.
-The atmosphere was mainly composed of oxygen and nitrogen, making it an ideal habitat for early settlers.
+Ea16 is K2V, approximately 0.82 solar masses and 0.37 solar luminosities; Eb16 is near M3V, approximately 0.4 solar masses and 0.012 solar luminosities.
+Their relative semimajor axis is approximately 10 AU, eccentricity 0.1 and binary period approximately 29 Earth years.
+Symphony of Stars orbits Ea16 alone at approximately 0.62 AU, with a period of approximately 197 Earth days.
+Primary irradiance is approximately 96-97% of Earth's; oceans, clouds and greenhouse effects support an adopted mean of 15 degrees C at 0.92G.
+Representative sea-level pressure is approximately 1 bar, with approximately 21% oxygen and 78% nitrogen; oceans and a biosphere support atmospheric cycling.
+See e16-world-canon_EN.txt for adopted values and their distinction from real observations.
 
 The first group of 1,000 people arrived at Symphony of Stars in E0 (AD3500).
-In year E1 (AD3501), the E calendar was established to match the rotation period of Ea16 (44 hours 4 minutes).
-One year is based on the orbital period of Ea16 (approximately 320 Earth days),
-Divided into 10 month “phases”. Each phase is 32 days,
-It was subdivided into four "quarters."
+In E1 (AD3501), an Earth-derived administrative E calendar was established.
+E years follow corresponding AD years: 365 standard days, or 366 in leap years; a standard day is 24 Earth hours.
+Ten 36-day phases are followed by five adjustment days, or six in leap years. Each phase has four nine-day quarters.
+AD year label = 3500 + E year. The planet's approximately 197-Earth-day orbit and 44-hour-4-minute mean solar day are independent units.
 
 [Construction of Timur Shah and Persephone]
 Timur Shah, the leader of the Immigrant Group, is a proponent of the 10-dimensional Horezm theory.

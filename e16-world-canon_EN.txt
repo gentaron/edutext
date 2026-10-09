@@ -1,0 +1,63 @@
+E16 System: Astronomy and Habitable Environment Canon
+Version: 2026-10-09
+============================================================
+
+Scope and precedence
+This document builds E16's astronomy, environment and calendar on observations of the Sombrero Galaxy. E16, Ea16, Eb16, Symphony of Stars and their civilizations are fictional, not discovered astronomical objects or life.
+For astronomical parameters, halo composition, day/night and calendars, this document takes precedence. These corrections are integrated into worldedu.txt, unified-history.txt, their English versions and section A of physics-canon-patch.txt. Historical events, characters, city names and E-calendar year labels remain in place.
+
+1. Location and galactic environment
+E16 is a two-star binary in the halo of M104, the Sombrero Galaxy, approximately 30 million light-years from Earth in the direction of Virgo. Its adopted environment lies away from the galactic center and outside the dense core of a globular cluster. Its exact galactic coordinates remain unspecified; neither its distance to the center nor the precise appearance of the night sky is fixed.
+M104 has a bright central bulge, a dusty disk and an extended halo. Its combination of disk and spheroidal components should not be described unequivocally as a barred spiral. Star formation is relatively modest, but has not stopped throughout the galaxy.
+Observed halo fields contain many metal-rich stars. Astronomical metals are elements heavier than helium. E16 belongs to an old stellar population with sufficient heavy elements. Scarce surrounding gas does not imply a lack of rocks, water or mineral deposits on its planets.
+Lower stellar density and fewer young massive stars can favor habitation, but cosmic rays and stellar flares do not vanish. Surface conditions depend on atmospheric shielding, the planetary magnetic environment and local space weather.
+
+2. Stars and orbits
+Ea16: K2V main-sequence star; approximately 0.82 solar masses, 0.37 solar luminosities, 5100 K effective temperature and 0.78 solar radii. Its light has a greater warm-color component than sunlight, and it is long-lived.
+Eb16: Main-sequence star near M3V; approximately 0.4 solar masses, 0.012 solar luminosities and 3430 K. It emits a larger fraction of its light in red and infrared wavelengths. These are rounded representative parameters, not exact values uniquely determined by spectral type.
+Binary: Relative semimajor axis approximately 10 AU, eccentricity 0.1. Star-to-star separation varies from approximately 9 to 11 AU; the period about their shared center of mass is approximately 29 Earth years. Ten AU is not a constant instantaneous separation.
+Symphony of Stars: An S-type planet orbiting Ea16 alone, with semimajor axis approximately 0.62 AU, low eccentricity and a prograde orbit nearly coplanar with the binary. Its orbital period is approximately 197 Earth days.
+The Holman & Wiegert empirical criterion places the outer S-type stability boundary around Ea16 at approximately 3 AU for these binary parameters. The planet is well inside it. This is a low-mass-planet approximation, not a numerical demonstration of long-term stability for all seven planets.
+The existing total of seven planets is retained. The orbits of the other planets, Eros-7 and small-body populations are not fixed here.
+
+3. Surface environment
+Primary-star irradiance is approximately 96-97% of Earth's. The existing mean surface temperature of 15 degrees C and surface gravity of 0.92G are retained. Temperature is an adopted climate outcome involving oceans, clouds, reflectivity, greenhouse effects and heat transport, not a direct consequence of irradiance alone.
+The planet has oceans, continents and a biosphere including photosynthetic organisms that supports atmospheric cycling. Adopted representative sea-level conditions are approximately 1 bar total pressure, 21% oxygen, 78% nitrogen and trace constituents including argon. These are fictional planetary conditions, not observations made in M104.
+Clear skies can retain a blue appearance. A warmer stellar spectrum does not make every sky or landscape orange; atmospheric scattering, clouds, wavelength distribution and visual adaptation matter.
+At 0.92G, weight is approximately 8% lower, while mass is unchanged. An idealized jump at the same launch speed reaches approximately 9% higher. This is not Moon-like gravity.
+Oceans moderate the long day/night temperature cycle; continental interiors may show greater variation. Specific climate zones and seasons require axial tilt, geography and ocean circulation to be defined.
+
+4. Day, night and daily life
+Forty-four hours and four minutes is Symphony of Stars' mean solar day, not Ea16's stellar rotation period. The planet's sidereal rotation period is slightly different.
+Near the equator during roughly equal day/night conditions, the primary supplies approximately 22 hours of daylight and 22 hours of night. Daylight is not fixed at 22 hours 2 minutes for every latitude and season. Eb16 provides additional illumination when above the horizon.
+Cities divide the long local day into multiple activity and rest intervals, using lighting and blackout systems together with existing biological-clock adaptation technologies. Forty-four continuous waking hours are not the standard.
+
+5. Administrative and seasonal calendars
+To preserve E0=AD3500, E1=AD3501 and E528=AD4028, the E calendar is an Earth-derived administrative and historical calendar. E-year boundaries are synchronized with the corresponding AD-year boundaries: 365 standard days in ordinary years and 366 in leap years. A standard day is 24 Earth hours. AD year label = 3500 + E year.
+Each year has ten phases of 36 standard days each, followed by five adjustment days, or six in leap years. Each phase contains four quarters of nine standard days.
+The administrative calendar is independent of the planet's approximately 197-Earth-day seasonal orbit. A given E-calendar date need not fall in the same season every year. The 44-hour-4-minute local solar day is also a separate unit.
+The former definitions of a 320-Earth-day E year, ten 32-day phases and a calendar determined by Ea16's own rotation/orbit are superseded. Character ages and historical intervals use administrative E years, not planetary orbit counts.
+
+6. Two stars and the galactic sky
+Ea16 subtends approximately 0.67 degrees, about 30% wider than the Sun seen from Earth. Earth-like incident energy and a warmer spectrum can coexist.
+Eb16 is not a second solar disk of the same size. At an observer distance of approximately 10 AU it appears as a tiny reddish source that can be brighter in visible light than the full Moon. Depending on its position and altitude, the primary's night may be softly illuminated, or both stars may set and allow a dark sky. Illumination and sunset times are not fixed across all dates.
+Under dark skies, a large faint glow can be visible toward the galactic center. Its shape depends on E16's location; the Earth-view hat shape must not simply be copied into the local sky. Photographic colors and brightness are distinct from naked-eye perception.
+Illustrative scale only: a 50,000-light-year disk viewed nearly face-on from 100,000 light-years above it spans approximately 28 degrees. This calculation does not establish E16's location or actual sky.
+Eros-7 retains its existing harsh conditions: 1.1G, 12% oxygen, a thin atmosphere and frequent electromagnetic storms. Total pressure is unspecified, so oxygen percentage alone does not establish surface breathability.
+
+7. Communication and the boundary of speculation
+Ordinary light and radio propagate at light speed. Earth communication takes approximately 30 million years one way; a round trip to a system 100 light-years away takes approximately 200 years.
+The story's intergalactic trade and rapid contact require its existing curvature-navigation and space-hole technologies. These are speculative EDU technologies, not observed working systems. Quantum teleportation alone does not provide faster-than-light communication or material transport.
+Distinguish observed M104 properties, representative stellar data and Kepler-law estimates from adopted fictional E16 conditions.
+
+References: real observations and research
+NASA, Hubble Provides New View of Galactic Favorite (2025):
+https://science.nasa.gov/missions/hubble/hubble-provides-new-view-of-galactic-favorite/
+NASA, Beyond the Brim, Sombrero Galaxy's Halo Suggests Turbulent Past (2020):
+https://science.nasa.gov/missions/hubble/beyond-the-brim-sombrero-galaxys-halo-suggests-turbulent-past/
+Cohen et al. (2020), The Strikingly Metal-Rich Halo of the Sombrero Galaxy:
+https://arxiv.org/abs/2001.01670
+Pecaut & Mamajek (2013) and the author's main-sequence parameter table:
+https://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt
+Holman & Wiegert (1999), Long-Term Stability of Planets in Binary Systems:
+https://arxiv.org/abs/astro-ph/9809315
