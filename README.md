@@ -33,7 +33,7 @@ EDU Text は Eternal Dominion Universe（EDU）のストーリー・世界観テ
 
 ### キャラクターの姓名・呼称
 
-[日本語の呼称一覧](character-names_JP.txt) / [English name reference](character-names_EN.txt) に、各人物のファースト・ミドル・ニックネーム・ラストと参照元をまとめています。既存呼称と今回追加した愛称を区別し、未記載の姓名要素や同名の別人物は注記しています。
+[日本語の呼称一覧](character-names_JP.txt) / [English name reference](character-names_EN.txt) に、各人物の正式なファースト・ミドル・ラストと、本文で使われる愛称・活動名をまとめています。ミナ＝ヴィルヘルミナのような呼び名と正式名の関係を整理し、実在の命名慣習や現地の語感を参考に補完した姓名は、創作設定として明記しています。
 
 ### ファイル命名規則
 
@@ -85,7 +85,7 @@ EDU Text is the central content repository for story and lore text files of the 
 
 ### Character Names and Forms of Address
 
-The [English reference](character-names_EN.txt) and [Japanese reference](character-names_JP.txt) list first names, middle names, familiar nicknames, last names and sources. They distinguish existing forms from newly assigned nicknames and annotate undocumented elements and separate identities.
+The [English reference](character-names_EN.txt) and [Japanese reference](character-names_JP.txt) distinguish formal first, middle and last names from familiar forms, aliases and surname address. They map calls such as Mina to formal names such as Wilhelmina, and explicitly identify creative completions informed by naming traditions and local styles.
 
 ### Naming Convention
 

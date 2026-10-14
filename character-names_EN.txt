@@ -1,268 +1,688 @@
-EDU Character Names and Nicknames
-Created: 2026-10-15
-Repository: gentaron/edutext
-Source baseline commit: a4e930e03a8cffad2103a6fcb03a787e73a0b723
+EDU Formal Names and Forms of Address — Revised
+Revised: 2026-10-15
 Japanese edition: character-names_JP.txt
+Repository: gentaron/edutext
+Narrative source baseline: a4e930e03a8cffad2103a6fcb03a787e73a0b723
+Entries: 186; original IDs retained
 
 Purpose
-A separate reference for first names, middle names, familiar nicknames and last names, supporting consistent dialogue.
-Name values retain the original source script to avoid inventing undocumented romanizations.
-The Japanese and English editions contain the same entries and nicknames.
+The name first encountered in a story is not necessarily a formal first name.
+It may be a familiar form, alias, surname address or inherited public name.
+Mina is a familiar form of Wilhelmina; the formal first name is Wilhelmina.
+This revision withdraws the previous treatment of Mina as the first name with a new nickname, Mina/Miina, the mechanical splitting of name positions, and forced new pet names for everyone.
 
-Conventions
-1. New means a familiar nickname assigned in this reference. Existing means an attested familiar form adopted from the text.
-2. A nickname is not part of a formal name. Use established everyday names in ordinary dialogue, these nicknames among close acquaintances, and formal names or established names with titles in official settings.
-   Retain generation labels when necessary to distinguish inherited names.
-3. Not recorded means the referenced text does not explicitly supply that element; it does not assert that no such element exists.
-   A mononym is placed in the First / used-name field without asserting that it is a birth name.
-4. Multi-part names are provisionally arranged as first / central / final elements following source order.
-   This editorial split does not establish legal naming roles or family relationships where the source is silent.
-   Japanese family/given names are separated; フォン (von) and アル＝ are retained with family-name elements.
-5. Similar names do not establish identical people. Variants and inherited names are explained in notes.
-   ミユシャリ and ファリエル are two people; the grouped wording ミユシャリ・ファリエル is not treated as one full name.
-6. Existing hero names and titles remain available alongside familiar nicknames, including Layla's Pink Voltage.
-7. Organizations, states, facilities, ships, objects, generic species, unnamed extras and references to real people are excluded.
-   ボグダス・ジャベリン, SSレンジ and ドミニオン・ヴァーミリオン are organization or territory names, not personal names.
-   Crossover characters have a separate section.
-8. Sources support names and attested forms, not prior usage of newly assigned nicknames.
-   This reference supports future writing; it does not replace existing names or dialogue in story files.
+Naming decisions
+- User instructions take priority: Wilhelmina Eureka Ernest is Mina's formal name.
+- Existing story calls remain usable. If they are familiar forms, supply the formal name and place the existing call in the familiar-name field.
+- Keep natural independent given names, including Layla, Iris, Leon and Karin, without forcing longer forms.
+- Use real naming relationships where appropriate, such as Katherine→Kate, Isaac→Ike, Thomas→Tom and Friedrich→Fritz.
+  A familiar form can have several possible expansions; the chosen fictional name is not asserted to be its unique etymology.
+- Accept local fictional names as names. Casteria remains Casteria; Cass is an in-world short form from Cas-. Withdraw the previous カス.
+- Separate aliases from linguistic diminutives. Alpha, Goldilocks and White Noise receive distinct formal identities.
+- Supply missing human personal/family names as creative worldbuilding, with a coherent naming style.
+  Divine, nonhuman and other-civilization mononyms need not acquire human surnames.
+- Assign middle names only where useful; do not add them mechanically to Japanese names or mononyms.
+- An em dash means no separate element is adopted in this naming setting. It is not a research placeholder.
+  Where no nickname is listed, use the formal given name or the existing public name.
+- Do not create nicknames merely by arbitrary clipping, adding Japanese honorifics, or appending generation numbers.
+- Display names in their appropriate order; Japanese formal displays use family→given order.
+- Preserve distinctions between birth names, public names and inherited identities. Do not invent replacement identities for crossover characters.
+- A language-style choice does not establish an undocumented birthplace, nationality, ethnicity or family relationship.
 
-Entries: 186
-Format: pipe-separated tables in UTF-8 plain text.
+Setting status
+User specified: explicitly directed in this conversation.
+Retained: existing given names adopted as formal names; optional familiar forms do not expand those names.
+New completion: includes formal names, additional names, surnames or familiar-name relationships newly adopted here.
+Reclassified: corrected roles or order of name elements; any creative completion is explained individually.
+Crossover retained: keeps the source character's name and withdraws the earlier added nickname.
 
-[主役]
+Sources and spelling
+Narrative sources identify characters and their earlier calls. They are not evidence that the newly supplied full identities already appeared in those files.
+This reference adopts creative naming settings as requested by the user; it does not present all names as recovered canon.
+Individual notes give full names and reasons. Latin spellings are selected in this reference; an unestablished Japanese surname reading remains in kanji.
+Existing story dialogue and public names are not globally replaced.
 
-| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C001 | レイラ・ヴィレル・ノヴァ | レイラ | ヴィレル | レイ | ノヴァ | New | Existing hero name: Pink Voltage. Japanese ボルテージ / ヴォルテージ are spelling variants. | LAYLA_JP.txt |
-| C002 | ミナ・エウレカ・アーネスト | ミナ | エウレカ | ミーナ | アーネスト | New | Short form: ミナ・エウレカ (Mina Eureka). | worldedu.txt |
-| C003 | ケイト・パットン（初代） | ケイト | Not recorded | ケイ・ワン | パットン | New | Separate from the second generation; nickname distinguishes the founder. | kateclaudiaandlilliesteiner.txt |
-| C004 | ケイト・パットン（第二世代） | ケイト | Not recorded | ケイ | パットン | New | Separate successor bearing the same public name. | kateclaudiaandlilliesteiner.txt |
-| C005 | リリー・シュタイナー | リリー | Not recorded | リル・ワン | シュタイナー | New | Birth name: Lily Steiner. AURALIS public name: Lillie Ardent, first generation. | kateclaudiaandlilliesteiner.txt |
-| C006 | リリー・アーデント（第二世代） | リリー | Not recorded | リル | アーデント | New | Separate from the first-generation Lily Steiner. | kateclaudiaandlilliesteiner.txt |
-| C007 | ニニー・オッフェンバッハ | ニニー | Not recorded | ニニ | オッフェンバッハ | New | Also written ニニー・オッフェンバック in nebura.txt. | kateclaudiaandlilliesteiner.txt |
-| C008 | ゲンタロウ | ゲンタロウ | Not recorded | ゲン | Not recorded | Existing | Also written 弦太郎. ゲン (Gen) is an existing familiar name. | Gentaroworld.txt |
-| C009 | ジェン | ジェン | Not recorded | ジェニー | Not recorded | New | — | Jenstoryep1_JP.txt |
-| C010 | ミュー | ミュー | Not recorded | ミュ | Not recorded | New | ミュウ is an existing spelling variant; ミュ is the new nickname. | Myustory_JP.txt |
-| C011 | ジュン | ジュン | Not recorded | ジュンくん | Not recorded | New | Not identified with 城田淳. | Junandslime_JP.txt |
-| C012 | グエ | グエ | Not recorded | グー | Not recorded | New | — | gue.txt |
-| C013 | ティナ | ティナ | Not recorded | ティー | Not recorded | New | — | Auralishentai.txt |
-| C156 | ライラ | ライラ | Not recorded | ライラちゃん | Not recorded | New | — | Jenstoryep1_JP.txt |
-| C157 | ジャマル | ジャマル | Not recorded | ジャム | Not recorded | New | — | LAYLA_JP.txt |
-| C158 | マーカス | マーカス | Not recorded | マーク | Not recorded | New | — | LAYLA_JP.txt |
+[AURALIS and principal cast]
+
+| ID | Story call / identity | First | Middle | Familiar name / alias | Last | Setting status | Narrative source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C001 | レイラ・ヴィレル・ノヴァ | Layla | Virel | — | Nova | Retained | LAYLA_JP.txt |
+| C002 | ミナ・エウレカ・アーネスト | Wilhelmina | Eureka | Mina | Ernest | User specified | worldedu.txt |
+| C003 | ケイト・パットン（初代） | Katherine | Claudia | Kate | Patton | New completion | kateclaudiaandlilliesteiner.txt |
+| C004 | ケイト・パットン（第二世代） | Katherine | Eleanor | Kate | Patton | New completion | kateclaudiaandlilliesteiner.txt |
+| C005 | リリー・シュタイナー | Lily | — | — | Steiner | Retained | kateclaudiaandlilliesteiner.txt |
+| C006 | リリー・アーデント（第二世代） | Lillian | — | Lillie | Ardent | New completion | kateclaudiaandlilliesteiner.txt |
+| C007 | ニニー・オッフェンバッハ | Antonina | — | Nini | Offenbach | New completion | kateclaudiaandlilliesteiner.txt |
+| C008 | ゲンタロウ | Gentaro | — | Gen | Sena | New completion | Gentaroworld.txt |
+| C009 | ジェン | Gentian | Lucian | Jen | Reveris | New completion | Jenstoryep1_JP.txt |
+| C010 | ミュー | Myron | — | Myu | Selenidis | New completion | Myustory_JP.txt |
+| C011 | ジュン | Jun | — | — | Minase | New completion | Junandslime_JP.txt |
+| C012 | グエ | Gwenaëlle | — | Gue | Le Goff | New completion | gue.txt |
+| C013 | ティナ | Cristina | — | Tina | Valletti | New completion | Auralishentai.txt |
+| C156 | ライラ | Lyla | — | — | Bellamy | New completion | Jenstoryep1_JP.txt |
+| C157 | ジャマル | Jamal | — | — | Hakim | New completion | LAYLA_JP.txt |
+| C158 | マーカス | Marcus | — | — | Whitlock | New completion | LAYLA_JP.txt |
+
+Individual naming decisions
+C001  Formal name: Layla Virel Nova / レイラ・ヴィレル・ノヴァ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. Pink Voltage is the established hero alias; Layla itself is the formal given name.
+C002  Formal name: Wilhelmina Eureka Ernest / ヴィルヘルミナ・エウレカ・アーネスト
+  Story-name role: Familiar name. User-specified: Mina is the familiar form of Wilhelmina, not the formal first name.
+C003  Formal name: Katherine Claudia Patton / キャサリン・クラウディア・パットン
+  Story-name role: Inherited public name using a familiar form. Adopts Katherine→Kate; Claudia is newly supplied. Distinct from the second generation.
+C004  Formal name: Katherine Eleanor Patton / キャサリン・エレノア・パットン
+  Story-name role: Inherited public name using a familiar form. Katherine→Kate; a distinct middle name is supplied. Inherited public name: Kate Patton.
+C005  Formal name: Lily Steiner / リリー・シュタイナー
+  Story-name role: Birth name / separate public name. Retained as a full given name; no forced expansion. Keeps Lily because the source explicitly identifies Lily Steiner as the birth name; Lillie Ardent is the first-generation public identity.
+C006  Formal name: Lillian Ardent / リリアン・アーデント
+  Story-name role: Inherited public name using a familiar form. Formal name supplied using Lillian→Lillie; retains the inherited public name Lillie Ardent.
+C007  Formal name: Antonina Offenbach / アントニーナ・オッフェンバッハ
+  Story-name role: Familiar name. Defines Nini as this character's family pet form from Antonina's -ni- sound; not a universal etymology.
+C008  Formal name: Gentaro Sena / 瀬名弦太郎
+  Story-name role: Formal name. Gentaro is the full Japanese given name; Gen is established. Sena is newly supplied.
+C009  Formal name: Gentian Lucian Reveris / ジェンティアン・ルシアン・レヴェリス
+  Story-name role: Familiar name. Supplies the masculine name Gentian, shortened to Jen in-world; middle and family names are also new.
+C010  Formal name: Myron Selenidis / ミュロン・セレニディス
+  Story-name role: Familiar name. Chooses the Greek-rooted Myron, rendered ミュロン; Myu is its fictional familiar form.
+C011  Formal name: Jun Minase / 水瀬ジュン
+  Story-name role: Formal name. Jun remains a full Japanese given name; Minase is new. Kept separate from Jun Shirota.
+C012  Formal name: Gwenaëlle Le Goff / グウェナエル・ル・ゴフ
+  Story-name role: Familiar name. Chooses Breton/French Gwenaëlle; Gue is defined as its established in-world short form.
+C013  Formal name: Cristina Valletti / クリスティーナ・ヴァレッティ
+  Story-name role: Familiar name. Uses Italian Cristina→Tina and supplies a family name.
+C156  Formal name: Lyla Bellamy / ライラ・ベラミー
+  Story-name role: Formal name. Adopts Lyla as a full name and supplies a surname; separate from Layla Nova.
+C157  Formal name: Jamal Hakim / ジャマル・ハキーム
+  Story-name role: Formal name. Jamal is a full Arabic given name; only the surname is new.
+C158  Formal name: Marcus Whitlock / マーカス・ウィットロック
+  Story-name role: Formal name. Retains Marcus as the full given name; surname supplied.
 
 [Iris and Crescent]
 
-| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C014 | アイリス | アイリス | Not recorded | アイ | Not recorded | New | Not identified with アイリス・ノヴァ, the Aloe Oil CEO. | IRIS_1.txt |
-| C015 | クラウス・フィオナ | クラウス | Not recorded | フィー | フィオナ | New | Usually called フィオナ. First/last roles are provisional, following source order. | IRIS_1.txt |
-| C016 | ゲオルグ・ジーマ | ゲオルグ | Not recorded | ジー | ジーマ | New | — | IRIS_1.txt |
-| C017 | サーペンティナ・レヴィリア | サーペンティナ | Not recorded | レヴィ | レヴィリア | Existing | Reverse order レヴィリア・サーペンティナ also occurs. Usually レヴィリア; familiar form レヴィ. Roles provisional. | IRIS_1.txt |
-| C018 | ガレス・ヴァンダール | ガレス | Not recorded | ガル | ヴァンダール | New | — | IRIS_1.txt |
-| C019 | リア・カーター | リア | Not recorded | リー | カーター | New | — | IRIS_1.txt |
-| C020 | アルフレッド・ジュース | アルフレッド | Not recorded | アルフ | ジュース | New | — | IRIS_2.txt |
-| C021 | ミカエル・ガブリエリ | ミカエル | Not recorded | ミカ | ガブリエリ | New | — | IRIS_2.txt |
-| C022 | セバスチャン・ヴァレリウス | セバスチャン | Not recorded | セブ | ヴァレリウス | New | — | IRIS_2.txt |
-| C023 | シェロン・ジェラス | シェロン | Not recorded | シェリー | ジェラス | New | — | IRIS_2.txt |
-| C024 | ワドリナ・レヴェルズ | ワドリナ | Not recorded | ワディ | レヴェルズ | New | — | IRIS_2.txt |
-| C025 | ニニギス・カラス | ニニギス | Not recorded | ニギ | カラス | New | — | IRIS_2.txt |
-| C026 | フレデリック・ギャビー | フレデリック | Not recorded | ギャビー | ギャビー | Existing | — | IRIS_2.txt |
-| C027 | アイナ・フォン・リースフェルト | アイナ | Not recorded | アイナちゃん | フォン・リースフェルト | New | フォン is retained as part of the family-name field. | IRIS_2.txt |
-| C028 | ピアトリーノ | ピアトリーノ | Not recorded | ピア | Not recorded | New | — | IRIS_2.txt |
-| C029 | エレナ | エレナ | Not recorded | エル | Not recorded | New | — | IRIS_2.txt |
-| C030 | イルミーゼ | イルミーゼ | Not recorded | イル | Not recorded | New | — | IRIS_2.txt |
-| C031 | レオン | レオン | Not recorded | レオ | Not recorded | New | — | IRIS_2.txt |
-| C032 | イェシバトー | イェシバトー | Not recorded | イェシ | Not recorded | New | — | IRIS_2.txt |
-| C033 | マリーナ・ボビン | マリーナ | Not recorded | マリー | ボビン | New | — | IRIS_3.txt |
-| C034 | アイク・ロペス | アイク | Not recorded | アイクン | ロペス | New | — | IRIS_3.txt |
-| C035 | イズミ | イズミ | Not recorded | イズ | Not recorded | New | — | IRIS_3.txt |
-| C036 | ヨニック | ヨニック | Not recorded | ヨニ | Not recorded | New | — | IRIS_3.txt |
-| C037 | ラストマン | ラストマン | Not recorded | ラス | Not recorded | New | — | IRIS_3.txt |
-| C038 | ギル | ギル | Not recorded | ギル坊 | Not recorded | New | — | IRIS_3.txt |
-| C039 | アザゼル・ヘクトパス | アザゼル | Not recorded | アズ | ヘクトパス | New | — | IRIS_3.txt |
-| C040 | カスチーナ・テンペスト | カスチーナ | Not recorded | カスティ | テンペスト | New | — | IRIS_3.txt |
-| C041 | ゴルディロックス・チューン | ゴルディロックス | Not recorded | ゴルディ | チューン | New | — | IRIS_3.txt |
-| C042 | ヴィヴィエッタ | ヴィヴィエッタ | Not recorded | ヴィヴィ | Not recorded | New | — | IRIS_3.txt |
-| C043 | カタリナ・カール | カタリナ | Not recorded | カティ | カール | New | — | IRIS_3.txt |
-| C044 | レイド・カキザキ | レイド | Not recorded | レイディ | カキザキ | New | — | IRIS_3.txt |
-| C045 | ジェイク・ガートナー | ジェイク | Not recorded | ジェイ | ガートナー | New | — | IRIS_3.txt |
-| C046 | ヴィクトル・フォン・オーガスタ | ヴィクトル | Not recorded | ヴィク | フォン・オーガスタ | New | フォン is retained as part of the family-name field. | IRIS_4.txt |
-| C047 | セレナ・ヴァレリア | セレナ | Not recorded | セレ | ヴァレリア | New | — | IRIS_4.txt |
-| C048 | ハンス・シュトルム | ハンス | Not recorded | ハン | シュトルム | New | — | IRIS_4.txt |
-| C049 | アリフ・アル＝ファティマ | アリフ | Not recorded | アリ | アル＝ファティマ | New | アル＝ファティマ is provisionally retained as one family-name unit. | IRIS_4.txt |
-| C151 | ミユシャリ | ミユシャリ | Not recorded | ミユ | Not recorded | New | — | IRIS_2.txt |
-| C152 | ファリエル | ファリエル | Not recorded | ファリ | Not recorded | New | — | IRIS_2.txt |
-| C153 | ホワイトノイズ | ホワイトノイズ | Not recorded | ホワイティ | Not recorded | New | — | IRIS_4.txt |
-| C181 | ボブリスティ | ボブリスティ | Not recorded | ボブ | Not recorded | New | — | IRIS_4.txt |
+| ID | Story call / identity | First | Middle | Familiar name / alias | Last | Setting status | Narrative source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C014 | アイリス | Iris | — | — | Vermeer | New completion | IRIS_1.txt |
+| C015 | クラウス・フィオナ | Fiona | — | — | Klaus | Reclassified | IRIS_1.txt |
+| C016 | ゲオルグ・ジーマ | Georg | — | — | Zima | Retained | IRIS_1.txt |
+| C017 | サーペンティナ・レヴィリア | Revillia | — | Levi | Serpentina | Reclassified | IRIS_1.txt |
+| C018 | ガレス・ヴァンダール | Gareth | — | — | Vandal | Retained | IRIS_1.txt |
+| C019 | リア・カーター | Leah | — | — | Carter | Retained | IRIS_1.txt |
+| C020 | アルフレッド・ジュース | Alfred | — | Alf | Juice | Retained | IRIS_2.txt |
+| C021 | ミカエル・ガブリエリ | Michael | — | — | Gabrieli | Retained | IRIS_2.txt |
+| C022 | セバスチャン・ヴァレリウス | Sebastian | — | Seb | Valerius | Retained | IRIS_2.txt |
+| C023 | シェロン・ジェラス | Sheron | — | — | Jealous | Retained | IRIS_2.txt |
+| C024 | ワドリナ・レヴェルズ | Wadrina | — | — | Revels | Retained | IRIS_2.txt |
+| C025 | ニニギス・カラス | Ninigis | — | — | Karas | Retained | IRIS_2.txt |
+| C026 | フレデリック・ギャビー | Frederick | — | Freddie | Gaby | Retained | IRIS_2.txt |
+| C027 | アイナ・フォン・リースフェルト | Aina | — | — | von Riesfeld | Retained | IRIS_2.txt |
+| C028 | ピアトリーノ | Piatrino | — | — | Bellini | New completion | IRIS_2.txt |
+| C029 | エレナ | Elena | — | — | Valenti | New completion | IRIS_2.txt |
+| C030 | イルミーゼ | Ilumise | — | — | Ravel | New completion | IRIS_2.txt |
+| C031 | レオン | Leon | — | — | Hartmann | New completion | IRIS_2.txt |
+| C032 | イェシバトー | Yeshivato | — | — | Naran | New completion | IRIS_2.txt |
+| C033 | マリーナ・ボビン | Marina | — | — | Bobbin | Retained | IRIS_3.txt |
+| C034 | アイク・ロペス | Isaac | — | Ike | Lopez | New completion | IRIS_3.txt |
+| C035 | イズミ | Izumi | — | — | Tachibana | New completion | IRIS_3.txt |
+| C036 | ヨニック | Yonik | — | — | Varek | New completion | IRIS_3.txt |
+| C037 | ラストマン | Lazarus | — | Lastman | Vane | New completion | IRIS_3.txt |
+| C038 | ギル | Gilbert | — | Gil | Hargreaves | New completion | IRIS_3.txt |
+| C039 | アザゼル・ヘクトパス | Azazel | — | — | Hectopas | Retained | IRIS_3.txt |
+| C040 | カスチーナ・テンペスト | Castina | — | — | Tempest | Retained | IRIS_3.txt |
+| C041 | ゴルディロックス・チューン | Aurelia | — | Goldilocks | Tune | New completion | IRIS_3.txt |
+| C042 | ヴィヴィエッタ | Viviana | — | Vivietta | Rossetti | New completion | IRIS_3.txt |
+| C043 | カタリナ・カール | Catalina | — | — | Karl | Retained | IRIS_3.txt |
+| C044 | レイド・カキザキ | Raid | — | — | Kakizaki | Retained | IRIS_3.txt |
+| C045 | ジェイク・ガートナー | Jacob | — | Jake | Gartner | New completion | IRIS_3.txt |
+| C046 | ヴィクトル・フォン・オーガスタ | Victor | — | — | von Augusta | Retained | IRIS_4.txt |
+| C047 | セレナ・ヴァレリア | Serena | — | — | Valeria | Retained | IRIS_4.txt |
+| C048 | ハンス・シュトルム | Johannes | — | Hans | Sturm | New completion | IRIS_4.txt |
+| C049 | アリフ・アル＝ファティマ | Arif | — | — | al-Fatima | Retained | IRIS_4.txt |
+| C151 | ミユシャリ | Miyushari | — | — | Astrea | New completion | IRIS_2.txt |
+| C152 | ファリエル | Fariel | — | — | Celesti | New completion | IRIS_2.txt |
+| C153 | ホワイトノイズ | Johann | — | White Noise | Weisshardt | New completion | IRIS_4.txt |
+| C181 | ボブリスティ | Bobristi | — | — | Veskar | New completion | IRIS_4.txt |
+
+Individual naming decisions
+C014  Formal name: Iris Vermeer / アイリス・ヴェルメール
+  Story-name role: Formal name. Iris is a full name. Withdraws Ai; supplies only a family name. Separate from Iris Nova.
+C015  Formal name: Fiona Klaus / フィオナ・クラウス
+  Story-name role: Name-order correction. Defines Fiona as the given name and Klaus as the family name; treats the legacy form as family-name-first.
+C016  Formal name: Georg Zima / ゲオルグ・ジーマ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C017  Formal name: Revillia Serpentina / レヴィリア・サーペンティナ
+  Story-name role: Name-order correction. Resolves reversed source orders around the usual name Revillia; Levi is established.
+C018  Formal name: Gareth Vandal / ガレス・ヴァンダール
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C019  Formal name: Leah Carter / リア・カーター
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C020  Formal name: Alfred Juice / アルフレッド・ジュース
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. The optional familiar form follows a conventional name relationship.
+C021  Formal name: Michael Gabrieli / ミカエル・ガブリエリ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C022  Formal name: Sebastian Valerius / セバスチャン・ヴァレリウス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. The optional familiar form follows a conventional name relationship.
+C023  Formal name: Sheron Jealous / シェロン・ジェラス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C024  Formal name: Wadrina Revels / ワドリナ・レヴェルズ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C025  Formal name: Ninigis Karas / ニニギス・カラス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C026  Formal name: Frederick Gaby / フレデリック・ギャビー
+  Story-name role: Formal name / surname address. Retained as a full given name; no forced expansion. The optional familiar form follows a conventional name relationship. Gaby is surname address; Freddie is the familiar form of Frederick.
+C027  Formal name: Aina von Riesfeld / アイナ・フォン・リースフェルト
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C028  Formal name: Piatrino Bellini / ピアトリーノ・ベッリーニ
+  Story-name role: Formal name. Retains a world-specific given name and supplies an Italian-style family name.
+C029  Formal name: Elena Valenti / エレナ・ヴァレンティ
+  Story-name role: Formal name. Elena is a full given name; only the surname is new.
+C030  Formal name: Ilumise Ravel / イルミーゼ・ラヴェル
+  Story-name role: Formal name. Retains the fictional given name; supplies a French-style surname.
+C031  Formal name: Leon Hartmann / レオン・ハルトマン
+  Story-name role: Formal name. Leon is a full name and is not mechanically expanded to Leonard; surname supplied.
+C032  Formal name: Yeshivato Naran / イェシバトー・ナラン
+  Story-name role: Formal name. Keeps a local fictional name without forcing an Earth etymology; supplies a surname.
+C033  Formal name: Marina Bobbin / マリーナ・ボビン
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C034  Formal name: Isaac Lopez / アイザック・ロペス
+  Story-name role: Familiar name. Uses Isaac→Ike; the existing everyday name moves to the nickname field.
+C035  Formal name: Izumi Tachibana / 橘イズミ
+  Story-name role: Formal name. Izumi remains a full Japanese given name; Tachibana is newly supplied.
+C036  Formal name: Yonik Varek / ヨニック・ヴァレク
+  Story-name role: Formal name. Retains the local given name in an Eastern-European-style design; surname supplied.
+C037  Formal name: Lazarus Vane / ラザルス・ヴェイン
+  Story-name role: Alias / code name. Lastman is an alias. Supplies a personal name without splitting Last and Man.
+C038  Formal name: Gilbert Hargreaves / ギルバート・ハーグリーヴス
+  Story-name role: Familiar name. Uses Gilbert→Gil; surname supplied.
+C039  Formal name: Azazel Hectopas / アザゼル・ヘクトパス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C040  Formal name: Castina Tempest / カスチーナ・テンペスト
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C041  Formal name: Aurelia Tune / アウレリア・チューン
+  Story-name role: Alias / code name. Treats Goldilocks as a golden-hair alias and supplies Aurelia as the formal given name.
+C042  Formal name: Viviana Rossetti / ヴィヴィアーナ・ロセッティ
+  Story-name role: Familiar name. Supplies an Italian-style formal name; Vivietta is defined as an in-world familiar form.
+C043  Formal name: Catalina Karl / カタリナ・カール
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C044  Formal name: Raid Kakizaki / カキザキ・レイド
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C045  Formal name: Jacob Gartner / ジェイコブ・ガートナー
+  Story-name role: Familiar name. Uses Jacob→Jake.
+C046  Formal name: Victor von Augusta / ヴィクトル・フォン・オーガスタ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C047  Formal name: Serena Valeria / セレナ・ヴァレリア
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C048  Formal name: Johannes Sturm / ヨハネス・シュトルム
+  Story-name role: Familiar name. Uses the German Johannes→Hans relationship.
+C049  Formal name: Arif al-Fatima / アリフ・アル＝ファティマ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C151  Formal name: Miyushari Astrea / ミユシャリ・アストレア
+  Story-name role: Formal name. Adopts a local full given name and supplies a surname; separate from Fariel.
+C152  Formal name: Fariel Celesti / ファリエル・セレスティ
+  Story-name role: Formal name. Adopts a local full given name and supplies a surname.
+C153  Formal name: Johann Weisshardt / ヨハン・ヴァイスハルト
+  Story-name role: Alias / code name. White Noise is an alias; supplies a German-style personal name.
+C181  Formal name: Bobristi Veskar / ボブリスティ・ヴェスカー
+  Story-name role: Formal name. Retains the local given name rather than forcing a Bob/Robert derivation; surname supplied.
 
 [Jen's circle]
 
-| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C050 | ジョー | ジョー | Not recorded | ジョーイ | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C051 | エリサ | エリサ | Not recorded | エリー | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C052 | ヴァネッサ | ヴァネッサ | Not recorded | ヴァニー | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C053 | アイリーン | アイリーン | Not recorded | アイリー | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C054 | カリン | カリン | Not recorded | リン | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C055 | メナス | メナス | Not recorded | メン | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C056 | ナクセン | ナクセン | Not recorded | ナク | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C057 | リナ | リナ | Not recorded | リニー | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C058 | ローリー | ローリー | Not recorded | ロー | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C059 | ヴァイラ | ヴァイラ | Not recorded | ヴァイ | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C060 | ヨルミ | ヨルミ | Not recorded | ヨル | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C061 | マックス | マックス | Not recorded | マッキー | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C062 | ナクシーン | ナクシーン | Not recorded | ナクシー | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C063 | レイ | レイ | Not recorded | レイちゃん | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C064 | ザラ | ザラ | Not recorded | ザリー | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C065 | アリー | アリー | Not recorded | アリィ | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C066 | ジェシカ | ジェシカ | Not recorded | ジェス | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C067 | マリーナ（ジェン編） | マリーナ | Not recorded | リーナ | Not recorded | New | Attendant in Jen's stories; not merged with マリーナ・ボビン. | Jenstoryep2_JP.txt |
-| C154 | ロウ | ロウ | Not recorded | ロウくん | Not recorded | New | — | Jenstoryep2_JP.txt |
-| C155 | レイリア | レイリア | Not recorded | レリ | Not recorded | New | — | Jenstoryep2_JP.txt |
+| ID | Story call / identity | First | Middle | Familiar name / alias | Last | Setting status | Narrative source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C050 | ジョー | Josephine | — | Jo | Hartwell | New completion | Jenstoryep2_JP.txt |
+| C051 | エリサ | Elisa | — | — | Moretti | New completion | Jenstoryep2_JP.txt |
+| C052 | ヴァネッサ | Vanessa | — | — | Blackthorne | New completion | Jenstoryep2_JP.txt |
+| C053 | アイリーン | Irene | — | — | Whitmore | New completion | Jenstoryep2_JP.txt |
+| C054 | カリン | Karin | — | — | Lindholm | New completion | Jenstoryep2_JP.txt |
+| C055 | メナス | Menas | — | — | Vosk | New completion | Jenstoryep2_JP.txt |
+| C056 | ナクセン | Naxen | — | — | Veyler | New completion | Jenstoryep2_JP.txt |
+| C057 | リナ | Carolina | — | Lina | Vento | New completion | Jenstoryep2_JP.txt |
+| C058 | ローリー | Laura | — | Laurie | Winslow | New completion | Jenstoryep2_JP.txt |
+| C059 | ヴァイラ | Vaira | — | — | Thorne | New completion | Jenstoryep2_JP.txt |
+| C060 | ヨルミ | Yormi | — | — | Saarinen | New completion | Jenstoryep2_JP.txt |
+| C061 | マックス | Maxime | — | Max | Delvaux | New completion | Jenstoryep2_JP.txt |
+| C062 | ナクシーン | Naxine | — | — | Vesper | New completion | Jenstoryep2_JP.txt |
+| C063 | レイ | Raymond | — | Ray | Ashford | New completion | Jenstoryep2_JP.txt |
+| C064 | ザラ | Zara | — | — | Hadid | New completion | Jenstoryep2_JP.txt |
+| C065 | アリー | Alison | — | Ally | Fairchild | New completion | Jenstoryep2_JP.txt |
+| C066 | ジェシカ | Jessica | — | Jess | Marlowe | New completion | Jenstoryep2_JP.txt |
+| C067 | マリーナ（ジェン編） | Marina | — | — | Delacour | New completion | Jenstoryep2_JP.txt |
+| C154 | ロウ | Rowan | — | Ro | Hale | New completion | Jenstoryep2_JP.txt |
+| C155 | レイリア | Raylia | — | — | Vauclaire | New completion | Jenstoryep2_JP.txt |
+
+Individual naming decisions
+C050  Formal name: Josephine Hartwell / ジョセフィーン・ハートウェル
+  Story-name role: Familiar name. Defines the attendant's formal name as Josephine and the familiar form as Jo.
+C051  Formal name: Elisa Moretti / エリサ・モレッティ
+  Story-name role: Formal name. Adopts Elisa as a full given name; only the surname is new.
+C052  Formal name: Vanessa Blackthorne / ヴァネッサ・ブラックソーン
+  Story-name role: Formal name. Vanessa is the full given name; surname supplied and Vanny withdrawn.
+C053  Formal name: Irene Whitmore / アイリーン・ウィットモア
+  Story-name role: Formal name. Retains the given name and supplies a surname; this reference adopts Irene as its spelling.
+C054  Formal name: Karin Lindholm / カリン・リンドホルム
+  Story-name role: Formal name. Adopts Karin as an independent Northern-European/Germanic given name; surname supplied.
+C055  Formal name: Menas Vosk / メナス・ヴォスク
+  Story-name role: Formal name. Retains a local full given name and supplies a surname.
+C056  Formal name: Naxen Veyler / ナクセン・ヴェイラー
+  Story-name role: Formal name. Adopts a local full given name rather than fabricating an Earth-language expansion; surname supplied.
+C057  Formal name: Carolina Vento / カロリーナ・ヴェント
+  Story-name role: Familiar name. Chooses Carolina→Lina and supplies a surname.
+C058  Formal name: Laura Winslow / ローラ・ウィンスロー
+  Story-name role: Familiar name. Supplies a formal name using English Laura→Laurie, together with a surname.
+C059  Formal name: Vaira Thorne / ヴァイラ・ソーン
+  Story-name role: Formal name. Adopts Vaira as the full given name; surname supplied.
+C060  Formal name: Yormi Saarinen / ヨルミ・サーリネン
+  Story-name role: Formal name. Retains the local name; the Northern-European-style surname is a fictional choice, not an existing ethnicity claim.
+C061  Formal name: Maxime Delvaux / マクシム・デルヴォー
+  Story-name role: Familiar name. Chooses French Maxime as the formal name and Max as the familiar form.
+C062  Formal name: Naxine Vesper / ナクシーン・ヴェスペル
+  Story-name role: Formal name. Separate from Naxen; retains the local given name and supplies a surname.
+C063  Formal name: Raymond Ashford / レイモンド・アシュフォード
+  Story-name role: Familiar name. Uses Raymond→Ray; surname supplied.
+C064  Formal name: Zara Hadid / ザラ・ハディド
+  Story-name role: Formal name. Adopts Zara as an independent full given name; surname supplied.
+C065  Formal name: Alison Fairchild / アリソン・フェアチャイルド
+  Story-name role: Familiar name. Uses Alison→Ally; surname supplied.
+C066  Formal name: Jessica Marlowe / ジェシカ・マーロウ
+  Story-name role: Formal name. Retains Jessica, with the familiar form Jess and a new surname.
+C067  Formal name: Marina Delacour / マリーナ・デラクール
+  Story-name role: Formal name. Retains Marina and supplies a surname; separate from Marina Bobbin.
+C154  Formal name: Rowan Hale / ローワン・ヘイル
+  Story-name role: Familiar name. Defines Ro as a short form of Rowan; supplies Hale without implying kinship with Eli.
+C155  Formal name: Raylia Vauclaire / レイリア・ヴォスクレール
+  Story-name role: Formal name. Retains the local given name; surname supplied.
 
 [Jun and Sitra-Celes]
 
-| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C068 | エリーゼ | エリーゼ | Not recorded | リゼ | Not recorded | New | — | Junandslime_JP.txt |
-| C069 | カール | カール | Not recorded | カーリー | Not recorded | New | — | Junandslime_JP.txt |
-| C070 | シトラセレス | シトラセレス | Not recorded | シトラ | Not recorded | Existing | Sitra-Celes is kept intact; Celes is not asserted to be a surname or middle name. | sitra.txt |
-| C071 | エレジア | エレジア | Not recorded | エレ | Not recorded | New | — | sitra.txt |
-| C072 | リリア | リリア | Not recorded | リリ | Not recorded | New | — | sitra.txt |
-| C073 | マリア | マリア | Not recorded | マリ | Not recorded | New | — | sitra.txt |
-| C074 | メデューサ | メデューサ | Not recorded | メディ | Not recorded | New | — | sitra.txt |
+| ID | Story call / identity | First | Middle | Familiar name / alias | Last | Setting status | Narrative source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C068 | エリーゼ | Elisabeth | — | Elise | von Ahren | New completion | Junandslime_JP.txt |
+| C069 | カール | Karl | — | — | Bergmann | New completion | Junandslime_JP.txt |
+| C070 | シトラセレス | Sitra-Celes | Aurelius | Sitra | Vulcanis | New completion | sitra.txt |
+| C071 | エレジア | Elegia | — | — | Vulcanis | New completion | sitra.txt |
+| C072 | リリア | Lilia | — | — | Varennes | New completion | sitra.txt |
+| C073 | マリア | Maria | — | — | Severini | New completion | sitra.txt |
+| C074 | メデューサ | Medusa | — | — | — | Retained | sitra.txt |
+
+Individual naming decisions
+C068  Formal name: Elisabeth von Ahren / エリーザベト・フォン・アーレン
+  Story-name role: Familiar name. Uses Elisabeth→Elise; surname supplied.
+C069  Formal name: Karl Bergmann / カール・ベルクマン
+  Story-name role: Formal name. Karl is a full Germanic given name; only the surname is new.
+C070  Formal name: Sitra-Celes Aurelius Vulcanis / シトラセレス・アウレリウス・ヴァルカニス
+  Story-name role: Formal name. Preserves Sitra-Celes as an indivisible imperial given name; supplies a dynastic surname and additional name. Sitra is established.
+C071  Formal name: Elegia Vulcanis / エレジア・ヴァルカニス
+  Story-name role: Formal name. Retains the name and supplies a dynastic surname used as empress, not an asserted birth surname.
+C072  Formal name: Lilia Varennes / リリア・ヴァレンヌ
+  Story-name role: Formal name. Lilia is retained as an independent full given name; surname supplied.
+C073  Formal name: Maria Severini / マリア・セヴェリーニ
+  Story-name role: Formal name. Maria is a full given name; surname supplied.
+C074  Formal name: Medusa / メデューサ
+  Story-name role: Formal mononym. Retains a mythic mononym without adding a human-style surname or nickname.
 
 [Casteria and Earth]
 
-| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C075 | カステリア・グレンヴェルト | カステリア | Not recorded | カス | グレンヴェルト | New | — | kasuteriasan.txt |
-| C076 | ペレシア・セロ・タリンコフ | ペレシア | セロ | ペリ | タリンコフ | New | — | kasuteriasan.txt |
-| C077 | 赤津信二 | 信二 | Not recorded | シン | 赤津 | New | — | kasuteriasan.txt |
-| C078 | 明石悠馬 | 悠馬 | Not recorded | ユウ | 明石 | New | — | kasuteriasan.txt |
-| C079 | 上西菫 | 菫 | Not recorded | スミ | 上西 | New | — | kasuteriasan.txt |
-| C080 | 矢崎善 | 善 | Not recorded | ゼン | 矢崎 | New | — | kasuteriasan.txt |
-| C081 | 城田淳 | 淳 | Not recorded | ジュン坊 | 城田 | New | — | kasuteriasan.txt |
-| C082 | コフーリエ・エヴァンハルトハイム | コフーリエ | Not recorded | コフ | エヴァンハルトハイム | New | — | kasuteriasan.txt |
-| C083 | テルキンス・ホワイトバーグ | テルキンス | Not recorded | テルキー | ホワイトバーグ | New | — | kasuteriasan.txt |
-| C084 | ヤン・ヴォルシェ | ヤン | Not recorded | ヤンくん | ヴォルシェ | New | — | kasuteriasan.txt |
-| C085 | セバストレス・カーヴァ | セバストレス | Not recorded | セバス | カーヴァ | Existing | — | kasuteriasan.txt |
-| C086 | グアラド・ブレイ | グアラド | Not recorded | グア | ブレイ | New | — | kasuteriasan.txt |
-| C087 | トム・レズジア | トム | Not recorded | トミー | レズジア | New | — | kasuteriasan.txt |
-| C088 | マリー・テレジア | マリー | Not recorded | テリー | テレジア | New | Source does not distinguish a compound given name from first/last names; provisional split. | kasuteriasan.txt |
-| C089 | テルル・エルミート | テルル | Not recorded | テル | エルミート | New | — | kasuteriasan.txt |
-| C090 | クルル | クルル | Not recorded | クル | Not recorded | New | — | unified-history.txt |
-| C091 | ノルマ | ノルマ | Not recorded | ノン | Not recorded | New | — | kasuteriasan.txt |
-| C092 | ユイ | ユイ | Not recorded | ユイちゃん | Not recorded | New | — | kasuteriasan.txt |
-| C093 | アカリ | アカリ | Not recorded | アカ | Not recorded | New | — | kasuteriasan.txt |
-| C094 | ファデーエフ | ファデーエフ | Not recorded | ファディ | Not recorded | New | — | kasuteriasan.txt |
-| C159 | アルフェル | アルフェル | Not recorded | アルフェ | Not recorded | New | — | kasuteriasan.txt |
+| ID | Story call / identity | First | Middle | Familiar name / alias | Last | Setting status | Narrative source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C075 | カステリア・グレンヴェルト | Casteria | Eleonora | Cass | Grenvelt | New completion | kasuteriasan.txt |
+| C076 | ペレシア・セロ・タリンコフ | Peresia | Sero | — | Talinkov | Retained | kasuteriasan.txt |
+| C077 | 赤津信二 | Shinji | — | — | Akatsu | Retained | kasuteriasan.txt |
+| C078 | 明石悠馬 | Yuma | — | — | Akashi | Retained | kasuteriasan.txt |
+| C079 | 上西菫 | Sumire | — | — | 上西 | Retained | kasuteriasan.txt |
+| C080 | 矢崎善 | Zen | — | — | Yazaki | Retained | kasuteriasan.txt |
+| C081 | 城田淳 | Jun | — | — | Shirota | Retained | kasuteriasan.txt |
+| C082 | コフーリエ・エヴァンハルトハイム | Kofourie | — | — | Evanhardtheim | Retained | kasuteriasan.txt |
+| C083 | テルキンス・ホワイトバーグ | Telkins | — | — | Whiteberg | Retained | kasuteriasan.txt |
+| C084 | ヤン・ヴォルシェ | Jan | — | — | Wolsche | Retained | kasuteriasan.txt |
+| C085 | セバストレス・カーヴァ | Sebastres | — | Sebas | Carva | Retained | kasuteriasan.txt |
+| C086 | グアラド・ブレイ | Guarado | — | — | Bray | Retained | kasuteriasan.txt |
+| C087 | トム・レズジア | Thomas | — | Tom | Leszia | New completion | kasuteriasan.txt |
+| C088 | マリー・テレジア | Marie-Thérèse | — | Marie | Valcourt | Reclassified | kasuteriasan.txt |
+| C089 | テルル・エルミート | Tellur | — | — | Hermite | Retained | kasuteriasan.txt |
+| C090 | クルル | Kururu | — | — | Carva | New completion | unified-history.txt |
+| C091 | ノルマ | Norma | — | — | Eberhardt | New completion | kasuteriasan.txt |
+| C092 | ユイ | Yui | — | — | 真理 | Reclassified | kasuteriasan.txt |
+| C093 | アカリ | Akari | — | — | Nishinomiya | Reclassified | kasuteriasan.txt |
+| C094 | ファデーエフ | Ilya | — | — | Fadeyev | Reclassified | kasuteriasan.txt |
+| C159 | アルフェル | Alfer | — | — | Lind | New completion | kasuteriasan.txt |
+
+Individual naming decisions
+C075  Formal name: Casteria Eleonora Grenvelt / カステリア・エレオノーラ・グレンヴェルト
+  Story-name role: Formal name. Casteria is the local formal given name; Cass is an in-world short form from Cas-. Supplies Eleonora and withdraws カス.
+C076  Formal name: Peresia Sero Talinkov / ペレシア・セロ・タリンコフ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C077  Formal name: Shinji Akatsu / 赤津信二
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C078  Formal name: Yuma Akashi / 明石悠馬
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C079  Formal name: Sumire 上西 / 上西菫
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. The surname's reading is not established, so its kanji are retained.
+C080  Formal name: Zen Yazaki / 矢崎善
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C081  Formal name: Jun Shirota / 城田淳
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C082  Formal name: Kofourie Evanhardtheim / コフーリエ・エヴァンハルトハイム
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C083  Formal name: Telkins Whiteberg / テルキンス・ホワイトバーグ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C084  Formal name: Jan Wolsche / ヤン・ヴォルシェ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C085  Formal name: Sebastres Carva / セバストレス・カーヴァ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. The optional familiar form follows a conventional name relationship.
+C086  Formal name: Guarado Bray / グアラド・ブレイ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C087  Formal name: Thomas Leszia / トーマス・レズジア
+  Story-name role: Familiar name. Uses Thomas→Tom.
+C088  Formal name: Marie-Thérèse Valcourt / マリー＝テレジア・ヴァルクール
+  Story-name role: Compound given name. Treats Marie-Thérèse as a compound given name; withdraws the old surname split and supplies Valcourt.
+C089  Formal name: Tellur Hermite / テルル・エルミート
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C090  Formal name: Kururu Carva / クルル・カーヴァ
+  Story-name role: Formal name. Assigns the same family name as Sebastres, following their established sibling relationship.
+C091  Formal name: Norma Eberhardt / ノルマ・エーベルハルト
+  Story-name role: Formal name. Retains Norma as a full given name; surname supplied.
+C092  Formal name: Yui 真理 / 真理ユイ
+  Story-name role: Formal name. Restores the surname from the source's 真理ユイ; retains its kanji because the reading is not established.
+C093  Formal name: Akari Nishinomiya / 西宮アカリ
+  Story-name role: Formal name. Restores the surname from the source's 西宮アカリ.
+C094  Formal name: Ilya Fadeyev / イリヤ・ファデーエフ
+  Story-name role: Surname address. Treats Fadeyev as a Russian-style surname; supplies Ilya and defines source usage as surname address.
+C159  Formal name: Alfer Lind / アルフェル・リンド
+  Story-name role: Formal name. Retains the local full given name; surname supplied.
 
 [Diana's eras]
 
-| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C095 | ダイアナ | ダイアナ | Not recorded | ダイ | Not recorded | New | The first Diana; separate from Athena, the 27th, and Leona, the 28th candidate. | DianaWorld.txt |
-| C096 | アルブレヒト | アルブレヒト | Not recorded | アル | Not recorded | New | — | DianaWorld.txt |
-| C097 | アテナ・ダイアナ・インモータリス | アテナ | ダイアナ | テナ | インモータリス | New | 27th holder; ダイアナ is recorded as the central name element. | DianaWorld.txt |
-| C098 | レオナ・アルテミシア・ダイアナ | レオナ | アルテミシア | レオちゃん | ダイアナ | New | Candidate for the 28th; final ダイアナ is provisional and may be an inherited name. | DianaWorld.txt |
-| C099 | フリッツ | フリッツ | Not recorded | フリ | Not recorded | New | — | DianaWorld.txt |
+| ID | Story call / identity | First | Middle | Familiar name / alias | Last | Setting status | Narrative source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C095 | ダイアナ | Diana | — | — | Immortalis | New completion | DianaWorld.txt |
+| C096 | アルブレヒト | Albrecht | — | — | von Linden | New completion | DianaWorld.txt |
+| C097 | アテナ・ダイアナ・インモータリス | Athena | Diana | — | Immortalis | Retained | DianaWorld.txt |
+| C098 | レオナ・アルテミシア・ダイアナ | Leona | Artemisia | — | Diana | Retained | DianaWorld.txt |
+| C099 | フリッツ | Friedrich | — | Fritz | Falkenstein | New completion | DianaWorld.txt |
+
+Individual naming decisions
+C095  Formal name: Diana Immortalis / ダイアナ・インモータリス
+  Story-name role: Formal name. Diana is a full given name; supplies the first ruler's dynastic surname and keeps her distinct from Athena and Leona.
+C096  Formal name: Albrecht von Linden / アルブレヒト・フォン・リンデン
+  Story-name role: Formal name. Albrecht is a full name; German-style surname supplied.
+C097  Formal name: Athena Diana Immortalis / アテナ・ダイアナ・インモータリス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. 27th holder: Athena is the given name; Diana is an inherited additional name.
+C098  Formal name: Leona Artemisia Diana / レオナ・アルテミシア・ダイアナ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. Candidate for the 28th: final Diana is adopted as a dynastic/inherited surname; separate from the first Diana.
+C099  Formal name: Friedrich Falkenstein / フリードリヒ・ファルケンシュタイン
+  Story-name role: Familiar name. Uses German Friedrich→Fritz; surname supplied.
 
 [History and civilizations]
 
-| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C100 | アルファ・ケイン | アルファ | Not recorded | アルフィ | ケイン | New | — | nebura.txt |
-| C101 | アレン・クロフォード | アレン | Not recorded | レン | クロフォード | New | — | nebura.txt |
-| C102 | セリア・ドミニクス | セリア | Not recorded | セリ | ドミニクス | New | — | nebura.txt |
-| C103 | ロナン・アーサ | ロナン | Not recorded | ロン | アーサ | New | — | nebura.txt |
-| C104 | エリオット・シュトラス | エリオット | Not recorded | エリオ | シュトラス | New | — | nebura.txt |
-| C105 | カトリーナ・ヴェイロス | カトリーナ | Not recorded | トリーナ | ヴェイロス | New | — | nebura.txt |
-| C106 | アイリス・ノヴァ | アイリス | Not recorded | ノヴィ | ノヴァ | New | Listed separately from the protagonist of the Iris stories. | nebura.txt |
-| C107 | アーサー・グリム | アーサー | Not recorded | アーティ | グリム | New | — | nebura.txt |
-| C108 | ヘリオス・ヴォラ | ヘリオス | Not recorded | ヘリ | ヴォラ | New | — | nebura.txt |
-| C109 | レイ・ヴァンデルト | レイ | Not recorded | ヴァン | ヴァンデルト | New | — | nebura.txt |
-| C110 | ダリウス・セヴァン | ダリウス | Not recorded | ダリ | セヴァン | New | — | nebura.txt |
-| C111 | ネイサン・コリンド | ネイサン | Not recorded | ネイト | コリンド | New | — | nebura.txt |
-| C112 | エリオス・ヴァルト | エリオス | Not recorded | ヴァル | ヴァルト | New | Identity with エリオス・ウォルド is unconfirmed. | nebura.txt |
-| C113 | アルゼン・カーリーン | アルゼン | Not recorded | アルゼ | カーリーン | New | — | nebura.txt |
-| C114 | カルロス・ヴァンダム | カルロス | Not recorded | カル | ヴァンダム | New | — | nebura.txt |
-| C115 | エリザベス・リンドバーグ | エリザベス | Not recorded | リズ | リンドバーグ | New | — | nebura.txt |
-| C116 | クロノ・ヴァーレント | クロノ | Not recorded | クロ | ヴァーレント | New | — | nebura.txt |
-| C117 | アドリアン・ラング | アドリアン | Not recorded | エイド | ラング | New | — | nebura.txt |
-| C118 | ラファエル・ドレイク | ラファエル | Not recorded | ラフ | ドレイク | New | — | nebura.txt |
-| C119 | グリム・ダルゴス | グリム | Not recorded | グリ | ダルゴス | New | — | nebura.txt |
-| C120 | マクシム・ヴェルド | マクシム | Not recorded | マク | ヴェルド | New | — | nebura.txt |
-| C121 | アゼル・ダルト | アゼル | Not recorded | アゼ | ダルト | New | — | nebura.txt |
-| C122 | リアナ・ソリス | リアナ | Not recorded | リアン | ソリス | New | — | nebura.txt |
-| C123 | グレイモンド・ハウザー | グレイモンド | Not recorded | グレイ | ハウザー | New | — | nebura.txt |
-| C124 | マドリス・カーネル | マドリス | Not recorded | マディ | カーネル | New | — | nebura.txt |
-| C125 | ライラ・ヴァーシティ | ライラ | Not recorded | ライ | ヴァーシティ | New | — | nebura.txt |
-| C126 | サムエル・ジョーンズ | サムエル | Not recorded | サム | ジョーンズ | New | — | nebura.txt |
-| C127 | ダリア・ケラルディ | ダリア | Not recorded | ダリィ | ケラルディ | New | — | nebura.txt |
-| C128 | リアム・クレイン | リアム | Not recorded | リアムくん | クレイン | New | — | nebura.txt |
-| C129 | サイラ・エルマン | サイラ | Not recorded | サイ | エルマン | New | — | nebura.txt |
-| C130 | カリム・ヴァルガス | カリム | Not recorded | カリムくん | ヴァルガス | New | — | nebura.txt |
-| C131 | タレス・アルティオス | タレス | Not recorded | タル | アルティオス | New | — | nebura.txt |
-| C132 | イザベラ・カーン | イザベラ | Not recorded | イジー | カーン | New | — | nebura.txt |
-| C133 | ヴァイロン・デアクス | ヴァイロン | Not recorded | ヴァイロ | デアクス | New | — | nebura.txt |
-| C134 | クインシアス（マスター） | クインシアス | Not recorded | クイン | Not recorded | New | Master is a title, not a first, middle or last name. | nebura.txt |
-| C135 | ヴェルナ・カイラス | ヴェルナ | Not recorded | ヴェル | カイラス | New | — | nebura.txt |
-| C136 | ティムール・シャー | ティムール | Not recorded | ティム | シャー | New | — | worldedu.txt |
-| C137 | リリス・ヴェイン | リリス | Not recorded | リス | ヴェイン | New | — | worldedu.txt |
-| C138 | エル・フォルハウス | エル | Not recorded | エルさん | フォルハウス | New | — | worldedu.txt |
-| C139 | エラナ・セレス | エラナ | Not recorded | ラナ | セレス | New | — | worldedu.txt |
-| C140 | シルヴィア・クロウ | シルヴィア | Not recorded | シルヴィ | クロウ | New | — | worldedu.txt |
-| C141 | アリア・ソル | アリア | Not recorded | アリちゃん | ソル | New | — | worldedu.txt |
-| C142 | マリア・フォルハウス | マリア | Not recorded | マリアさん | フォルハウス | New | — | worldedu.txt |
-| C143 | アヤカ・リン | アヤカ | Not recorded | アヤ | リン | New | — | worldedu.txt |
-| C144 | カーラ・ヴェルム | カーラ | Not recorded | カーリーさん | ヴェルム | New | — | worldedu.txt |
-| C145 | エリオス・ウォルド | エリオス | Not recorded | ウォル | ウォルド | New | Identity with エリオス・ヴァルト is unconfirmed. | worldedu.txt |
-| C160 | リンダ | リンダ | Not recorded | リンディ | Not recorded | New | — | nebura.txt |
-| C161 | ヨシロウ | ヨシロウ | Not recorded | ヨシ | Not recorded | New | — | nebura.txt |
-| C162 | クレメンタイン | クレメンタイン | Not recorded | クレム | Not recorded | New | — | nebura.txt |
-| C163 | オメガ＝ユリシス | オメガ＝ユリシス | Not recorded | ユリ | Not recorded | New | Kept as one public name; not merged with Justice Seven's オメガ. | nebura.txt |
-| C164 | リサ | リサ | Not recorded | リッサ | Not recorded | New | — | nebura.txt |
-| C165 | サイファー | サイファー | Not recorded | サイフィ | Not recorded | New | — | nebura.txt |
-| C166 | イシュロス | イシュロス | Not recorded | イシュ | Not recorded | New | — | nebura.txt |
-| C167 | ヴァルファ | ヴァルファ | Not recorded | ヴァルフ | Not recorded | New | — | nebura.txt |
-| C168 | クヴァリス | クヴァリス | Not recorded | クヴァ | Not recorded | New | — | nebura.txt |
-| C169 | ジェスター | ジェスター | Not recorded | ジェス太 | Not recorded | New | — | nebura.txt |
-| C170 | フロイド | フロイド | Not recorded | フロイ | Not recorded | New | — | nebura.txt |
-| C171 | タウラス | タウラス | Not recorded | タウ | Not recorded | New | — | nebura.txt |
-| C172 | アリエス | アリエス | Not recorded | アリス | Not recorded | New | — | nebura.txt |
-| C173 | オーロラ | オーロラ | Not recorded | ローラ | Not recorded | New | — | nebura.txt |
-| C174 | アリスタス | アリスタス | Not recorded | アリス太 | Not recorded | New | — | nebura.txt |
-| C175 | ケイン（ジャスティスセブン） | ケイン | Not recorded | ケイくん | Not recorded | New | Not merged with アルファ・ケイン. | nebura.txt |
-| C176 | シグナス | シグナス | Not recorded | シグ | Not recorded | New | — | nebura.txt |
-| C177 | エリシオン（ジャスティスセブン） | エリシオン | Not recorded | エリシ | Not recorded | New | The named member, not a civilization. | nebura.txt |
-| C178 | オメガ（ジャスティスセブン） | オメガ | Not recorded | オメ | Not recorded | New | Not merged with オメガ＝ユリシス. | nebura.txt |
-| C179 | カリスト | カリスト | Not recorded | カリス | Not recorded | New | — | nebura.txt |
+| ID | Story call / identity | First | Middle | Familiar name / alias | Last | Setting status | Narrative source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C100 | アルファ・ケイン | Alfred | Leon | Alpha | Kane | New completion | nebura.txt |
+| C101 | アレン・クロフォード | Allen | — | — | Crawford | Retained | nebura.txt |
+| C102 | セリア・ドミニクス | Celia | — | — | Dominicus | Retained | nebura.txt |
+| C103 | ロナン・アーサ | Ronan | — | — | Artha | Retained | nebura.txt |
+| C104 | エリオット・シュトラス | Elliott | — | — | Strass | Retained | nebura.txt |
+| C105 | カトリーナ・ヴェイロス | Katrina | — | — | Veiros | Retained | nebura.txt |
+| C106 | アイリス・ノヴァ | Iris | — | — | Nova | Retained | nebura.txt |
+| C107 | アーサー・グリム | Arthur | — | Artie | Grimm | Retained | nebura.txt |
+| C108 | ヘリオス・ヴォラ | Helios | — | — | Vora | Retained | nebura.txt |
+| C109 | レイ・ヴァンデルト | Raymond | — | Ray | Vandelt | New completion | nebura.txt |
+| C110 | ダリウス・セヴァン | Darius | — | — | Sevan | Retained | nebura.txt |
+| C111 | ネイサン・コリンド | Nathan | — | Nate | Corind | Retained | nebura.txt |
+| C112 | エリオス・ヴァルト | Elios | — | — | Walt | Retained | nebura.txt |
+| C113 | アルゼン・カーリーン | Arzen | — | — | Carleen | Retained | nebura.txt |
+| C114 | カルロス・ヴァンダム | Carlos | — | — | Vandam | Retained | nebura.txt |
+| C115 | エリザベス・リンドバーグ | Elizabeth | — | Liz | Lindberg | Retained | nebura.txt |
+| C116 | クロノ・ヴァーレント | Chrono | — | — | Varent | Retained | nebura.txt |
+| C117 | アドリアン・ラング | Adrian | — | — | Lang | Retained | nebura.txt |
+| C118 | ラファエル・ドレイク | Rafael | — | — | Drake | Retained | nebura.txt |
+| C119 | グリム・ダルゴス | Grimm | — | — | Dargos | Retained | nebura.txt |
+| C120 | マクシム・ヴェルド | Maxim | — | Max | Verd | Retained | nebura.txt |
+| C121 | アゼル・ダルト | Azel | — | — | Dalt | Retained | nebura.txt |
+| C122 | リアナ・ソリス | Liana | — | — | Solis | Retained | nebura.txt |
+| C123 | グレイモンド・ハウザー | Greymond | — | — | Hauser | Retained | nebura.txt |
+| C124 | マドリス・カーネル | Madris | — | — | Kernel | Retained | nebura.txt |
+| C125 | ライラ・ヴァーシティ | Lyla | — | — | Varsity | Retained | nebura.txt |
+| C126 | サムエル・ジョーンズ | Samuel | — | Sam | Jones | Retained | nebura.txt |
+| C127 | ダリア・ケラルディ | Dahlia | — | — | Gheraldi | Retained | nebura.txt |
+| C128 | リアム・クレイン | Liam | — | — | Crane | Retained | nebura.txt |
+| C129 | サイラ・エルマン | Saira | — | — | Ellman | Retained | nebura.txt |
+| C130 | カリム・ヴァルガス | Karim | — | — | Vargas | Retained | nebura.txt |
+| C131 | タレス・アルティオス | Thales | — | — | Altios | Retained | nebura.txt |
+| C132 | イザベラ・カーン | Isabella | — | Bella | Khan | Retained | nebura.txt |
+| C133 | ヴァイロン・デアクス | Vairon | — | — | Deax | Retained | nebura.txt |
+| C134 | クインシアス（マスター） | Quincius | — | — | Valerion | New completion | nebura.txt |
+| C135 | ヴェルナ・カイラス | Verna | — | — | Kailas | Retained | nebura.txt |
+| C136 | ティムール・シャー | Timur | — | — | Shah | Retained | worldedu.txt |
+| C137 | リリス・ヴェイン | Lilith | — | — | Vane | Retained | worldedu.txt |
+| C138 | エル・フォルハウス | Elmar | — | El | Forlhaus | New completion | worldedu.txt |
+| C139 | エラナ・セレス | Elana | — | — | Celes | Retained | worldedu.txt |
+| C140 | シルヴィア・クロウ | Sylvia | — | Sylvie | Crow | Retained | worldedu.txt |
+| C141 | アリア・ソル | Aria | — | — | Sol | Retained | worldedu.txt |
+| C142 | マリア・フォルハウス | Maria | — | — | Forlhaus | Retained | worldedu.txt |
+| C143 | アヤカ・リン | Ayaka | — | — | Lin | Retained | worldedu.txt |
+| C144 | カーラ・ヴェルム | Karla | — | — | Verm | Retained | worldedu.txt |
+| C145 | エリオス・ウォルド | Elios | — | — | Wold | Retained | worldedu.txt |
+| C160 | リンダ | Linda | — | — | Eckhardt | New completion | nebura.txt |
+| C161 | ヨシロウ | Yoshiro | — | — | Saeki | New completion | nebura.txt |
+| C162 | クレメンタイン | Clementine | — | Clem | Voss | New completion | nebura.txt |
+| C163 | オメガ＝ユリシス | Ulysses | — | Omega | — | Reclassified | nebura.txt |
+| C164 | リサ | Elisabeth | — | Lisa | Adler | New completion | nebura.txt |
+| C165 | サイファー | Seraphina | — | Cipher | Veil | New completion | nebura.txt |
+| C166 | イシュロス | Ishros | — | — | — | Retained | nebura.txt |
+| C167 | ヴァルファ | Valfa | — | — | — | Retained | nebura.txt |
+| C168 | クヴァリス | Quvaris | — | — | — | Retained | nebura.txt |
+| C169 | ジェスター | Julian | — | Jester | Vesque | New completion | nebura.txt |
+| C170 | フロイド | Floyd | — | — | Mercer | New completion | nebura.txt |
+| C171 | タウラス | Titus | — | Taurus | Ferrum | New completion | nebura.txt |
+| C172 | アリエス | Ariadne | — | Aries | Vale | New completion | nebura.txt |
+| C173 | オーロラ | Aurora | — | — | — | Retained | nebura.txt |
+| C174 | アリスタス | Aristas | — | — | — | Retained | nebura.txt |
+| C175 | ケイン（ジャスティスセブン） | Kane | — | — | — | Retained | nebura.txt |
+| C176 | シグナス | Cygnus | — | — | — | Retained | nebura.txt |
+| C177 | エリシオン（ジャスティスセブン） | Elysion | — | — | — | Retained | nebura.txt |
+| C178 | オメガ（ジャスティスセブン） | Omega | — | — | — | Retained | nebura.txt |
+| C179 | カリスト | Callisto | — | — | — | Retained | nebura.txt |
+
+Individual naming decisions
+C100  Formal name: Alfred Leon Kane / アルフレート・レオン・ケイン
+  Story-name role: Alias / code name. Alpha is a Greek-letter alias; supplies Alfred Leon Kane, preserving a sound connection rather than claiming an etymology.
+C101  Formal name: Allen Crawford / アレン・クロフォード
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C102  Formal name: Celia Dominicus / セリア・ドミニクス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C103  Formal name: Ronan Artha / ロナン・アーサ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C104  Formal name: Elliott Strass / エリオット・シュトラス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C105  Formal name: Katrina Veiros / カトリーナ・ヴェイロス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C106  Formal name: Iris Nova / アイリス・ノヴァ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. CEO of Aloe Oil; kept separate from the Iris-story protagonist.
+C107  Formal name: Arthur Grimm / アーサー・グリム
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. The optional familiar form follows a conventional name relationship.
+C108  Formal name: Helios Vora / ヘリオス・ヴォラ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C109  Formal name: Raymond Vandelt / レイモンド・ヴァンデルト
+  Story-name role: Familiar name. Uses Raymond→Ray; separate from Ray in Jen's stories.
+C110  Formal name: Darius Sevan / ダリウス・セヴァン
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C111  Formal name: Nathan Corind / ネイサン・コリンド
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. The optional familiar form follows a conventional name relationship.
+C112  Formal name: Elios Walt / エリオス・ヴァルト
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. Identity with Elios Wold is not established.
+C113  Formal name: Arzen Carleen / アルゼン・カーリーン
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C114  Formal name: Carlos Vandam / カルロス・ヴァンダム
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C115  Formal name: Elizabeth Lindberg / エリザベス・リンドバーグ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. The optional familiar form follows a conventional name relationship.
+C116  Formal name: Chrono Varent / クロノ・ヴァーレント
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C117  Formal name: Adrian Lang / アドリアン・ラング
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C118  Formal name: Rafael Drake / ラファエル・ドレイク
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C119  Formal name: Grimm Dargos / グリム・ダルゴス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C120  Formal name: Maxim Verd / マクシム・ヴェルド
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. The optional familiar form follows a conventional name relationship.
+C121  Formal name: Azel Dalt / アゼル・ダルト
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C122  Formal name: Liana Solis / リアナ・ソリス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C123  Formal name: Greymond Hauser / グレイモンド・ハウザー
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C124  Formal name: Madris Kernel / マドリス・カーネル
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C125  Formal name: Lyla Varsity / ライラ・ヴァーシティ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C126  Formal name: Samuel Jones / サムエル・ジョーンズ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. The optional familiar form follows a conventional name relationship.
+C127  Formal name: Dahlia Gheraldi / ダリア・ケラルディ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C128  Formal name: Liam Crane / リアム・クレイン
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C129  Formal name: Saira Ellman / サイラ・エルマン
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C130  Formal name: Karim Vargas / カリム・ヴァルガス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C131  Formal name: Thales Altios / タレス・アルティオス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C132  Formal name: Isabella Khan / イザベラ・カーン
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. The optional familiar form follows a conventional name relationship.
+C133  Formal name: Vairon Deax / ヴァイロン・デアクス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C134  Formal name: Quincius Valerion / クインシアス・ヴァレリオン
+  Story-name role: Formal name. Retains the local name Quincius and supplies a surname; Master is a title.
+C135  Formal name: Verna Kailas / ヴェルナ・カイラス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C136  Formal name: Timur Shah / ティムール・シャー
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C137  Formal name: Lilith Vane / リリス・ヴェイン
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C138  Formal name: Elmar Forlhaus / エルマー・フォルハウス
+  Story-name role: Familiar name. Defines El as the familiar opening of the Germanic name Elmar.
+C139  Formal name: Elana Celes / エラナ・セレス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C140  Formal name: Sylvia Crow / シルヴィア・クロウ
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. The optional familiar form follows a conventional name relationship.
+C141  Formal name: Aria Sol / アリア・ソル
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C142  Formal name: Maria Forlhaus / マリア・フォルハウス
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C143  Formal name: Ayaka Lin / アヤカ・リン
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C144  Formal name: Karla Verm / カーラ・ヴェルム
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
+C145  Formal name: Elios Wold / エリオス・ウォルド
+  Story-name role: Formal name. Retained as a full given name; no forced expansion. Identity with Elios Walt is not established.
+C160  Formal name: Linda Eckhardt / リンダ・エックハルト
+  Story-name role: Formal name. Adopts Linda as an independent full given name; surname supplied.
+C161  Formal name: Yoshiro Saeki / 佐伯ヨシロウ
+  Story-name role: Formal name. Retains the Japanese full given name; Saeki supplied.
+C162  Formal name: Clementine Voss / クレメンタイン・ヴォス
+  Story-name role: Formal name. Clementine remains the formal name; uses Clem and supplies a surname.
+C163  Formal name: Ulysses / ユリシス
+  Story-name role: Rank + individual name. Defines Ulysses as the individual name and Omega as a rank/alias; retains the public compound Omega=Ulysses.
+C164  Formal name: Elisabeth Adler / エリーザベト・アドラー
+  Story-name role: Familiar name. Uses Elisabeth→Lisa; surname supplied.
+C165  Formal name: Seraphina Veil / セラフィナ・ヴェール
+  Story-name role: Alias / code name. Cipher is the goddess's alias; supplies an individual name without claiming a diminutive relationship.
+C166  Formal name: Ishros / イシュロス
+  Story-name role: Formal mononym. Retains a divine mononym without forcing an Earth-style surname.
+C167  Formal name: Valfa / ヴァルファ
+  Story-name role: Formal mononym. Retains a nonhuman individual name; withdraws the arbitrary truncation.
+C168  Formal name: Quvaris / クヴァリス
+  Story-name role: Formal mononym. Retains a mononym from another civilization.
+C169  Formal name: Julian Vesque / ジュリアン・ヴェスク
+  Story-name role: Alias / code name. Jester is an occupational-style alias; supplies a personal name.
+C170  Formal name: Floyd Mercer / フロイド・マーサー
+  Story-name role: Formal name. Retains Floyd as the full given name; surname supplied.
+C171  Formal name: Titus Ferrum / タイタス・フェラム
+  Story-name role: Alias / code name. Taurus is a zodiac code name; a formal personal name is supplied.
+C172  Formal name: Ariadne Vale / アリアドネ・ヴェイル
+  Story-name role: Alias / code name. Aries is a zodiac code name; supplies the warrior's formal name.
+C173  Formal name: Aurora / オーロラ
+  Story-name role: Formal mononym. Retains the dimensional administrator's mononym; withdraws the arbitrary Laura nickname.
+C174  Formal name: Aristas / アリスタス
+  Story-name role: Formal mononym. Retains a nonhuman individual name.
+C175  Formal name: Kane / ケイン
+  Story-name role: Formal mononym. Nonhuman individual name; distinct from Alpha Kane's surname.
+C176  Formal name: Cygnus / シグナス
+  Story-name role: Formal mononym. Retains a nonhuman individual name.
+C177  Formal name: Elysion / エリシオン
+  Story-name role: Formal mononym. Individual name of the Justice Seven member, not the civilization.
+C178  Formal name: Omega / オメガ
+  Story-name role: Formal mononym. Justice Seven individual's designation; not merged with Omega=Ulysses.
+C179  Formal name: Callisto / カリスト
+  Story-name role: Formal mononym. Retains a nonhuman mononym.
 
 [Gentaro's circle]
 
-| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C146 | オーローン | オーローン | Not recorded | ローン | Not recorded | New | — | Gentaroworld.txt |
-| C147 | タルダー | タルダー | Not recorded | タルダ | Not recorded | New | — | Gentaroworld.txt |
-| C148 | アーパ | アーパ | Not recorded | アー | Not recorded | New | — | Gentaroworld.txt |
-| C149 | アヤカ（ゲンタロウ編） | アヤカ | Not recorded | アヤちゃん | Not recorded | New | Identity with アヤカ・リン is unconfirmed. | Gentaroworld.txt |
-| C180 | Mari Takasugi | Mari | Not recorded | マリィ | Takasugi | New | A member of Spandexer; spelling retained from the source. | Gentaroworld.txt |
+| ID | Story call / identity | First | Middle | Familiar name / alias | Last | Setting status | Narrative source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C146 | オーローン | Orolan | — | — | Valgard | New completion | Gentaroworld.txt |
+| C147 | タルダー | Taldar | — | — | Eisenwolf | New completion | Gentaroworld.txt |
+| C148 | アーパ | Arpa | — | — | Vaara | New completion | Gentaroworld.txt |
+| C149 | アヤカ（ゲンタロウ編） | Ayaka | — | — | Kiryu | New completion | Gentaroworld.txt |
+| C180 | Mari Takasugi | Mari | — | — | Takasugi | Retained | Gentaroworld.txt |
+
+Individual naming decisions
+C146  Formal name: Orolan Valgard / オーローン・ヴァルガード
+  Story-name role: Formal name. Retains the local full given name and supplies a surname.
+C147  Formal name: Taldar Eisenwolf / タルダー・アイゼンヴォルフ
+  Story-name role: Formal name. Retains the local full given name and supplies a surname.
+C148  Formal name: Arpa Vaara / アーパ・ヴァーラ
+  Story-name role: Formal name. Retains the local full given name and supplies a surname.
+C149  Formal name: Ayaka Kiryu / 桐生アヤカ
+  Story-name role: Formal name. Retains the Japanese given name and supplies Kiryu; not identified with Ayaka Lin.
+C180  Formal name: Mari Takasugi / Mari Takasugi
+  Story-name role: Formal name. Retained as a full given name; no forced expansion.
 
 [Layla's circle]
 
-| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C150 | イーライ | イーライ | Not recorded | イー | Not recorded | New | — | LAYLA_JP.txt |
+| ID | Story call / identity | First | Middle | Familiar name / alias | Last | Setting status | Narrative source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C150 | イーライ | Elijah | — | Eli | Hale | New completion | LAYLA_JP.txt |
+
+Individual naming decisions
+C150  Formal name: Elijah Hale / イライジャ・ヘイル
+  Story-name role: Familiar name. Uses Elijah→Eli; surname supplied.
 
 [Crossover appearances]
 
-| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C182 | ニコ・ロビン | ロビン | Not recorded | ロビ | ニコ | New | Crossover name occurring in the text. This nickname is for EDU usage and does not redefine the source work's canon. | Gentaroworld.txt |
-| C183 | ナミ | ナミ | Not recorded | ナミちゃん | Not recorded | New | Crossover name occurring in the text. This nickname is for EDU usage and does not redefine the source work's canon. | Gentaroworld.txt |
-| C184 | 春野サクラ | サクラ | Not recorded | サク | 春野 | New | Crossover name occurring in the text. This nickname is for EDU usage and does not redefine the source work's canon. | Gentaroworld.txt |
-| C185 | 松本乱菊 | 乱菊 | Not recorded | ラン | 松本 | New | Crossover name occurring in the text. This nickname is for EDU usage and does not redefine the source work's canon. | Gentaroworld.txt |
-| C186 | ボア・ハンコック | ハンコック | Not recorded | ハンちゃん | ボア | New | Crossover name occurring in the text. This nickname is for EDU usage and does not redefine the source work's canon. | gue.txt |
+| ID | Story call / identity | First | Middle | Familiar name / alias | Last | Setting status | Narrative source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C182 | ニコ・ロビン | Robin | — | — | Nico | Crossover retained | Gentaroworld.txt |
+| C183 | ナミ | Nami | — | — | — | Crossover retained | Gentaroworld.txt |
+| C184 | 春野サクラ | Sakura | — | — | Haruno | Crossover retained | Gentaroworld.txt |
+| C185 | 松本乱菊 | Rangiku | — | — | Matsumoto | Crossover retained | Gentaroworld.txt |
+| C186 | ボア・ハンコック | Hancock | — | — | Boa | Crossover retained | gue.txt |
+
+Individual naming decisions
+C182  Formal name: Nico Robin / ニコ・ロビン
+  Story-name role: Formal name. Retains the crossover character's name; withdraws the previous added nickname and invents no replacement formal name.
+C183  Formal name: Nami / ナミ
+  Story-name role: Formal mononym. Retains the crossover character's name; withdraws the previous added nickname and invents no replacement formal name.
+C184  Formal name: Sakura Haruno / 春野サクラ
+  Story-name role: Formal name. Retains the crossover character's name; withdraws the previous added nickname and invents no replacement formal name.
+C185  Formal name: Rangiku Matsumoto / 松本乱菊
+  Story-name role: Formal name. Retains the crossover character's name; withdraws the previous added nickname and invents no replacement formal name.
+C186  Formal name: Boa Hancock / ボア・ハンコック
+  Story-name role: Formal name. Retains the crossover character's name; withdraws the previous added nickname and invents no replacement formal name.
+
+Naming references support real-world name relationships, not the fictional identities, new surnames or local pet names created here.
+
+Name references (accessed 2026-10-15)
+https://www.behindthename.com/name/mina-1 — Mina / Wilhelmina
+https://www.behindthename.com/name/kate — Kate / Katherine
+https://www.behindthename.com/name/isaac — Ike / Isaac
+https://www.behindthename.com/name/fritz — Fritz / Friedrich
+https://www.behindthename.com/name/gilberto — Gilbert / Gil
+https://www.behindthename.com/name/tina — names ending in -tina / Tina
+https://www.behindthename.com/name/elisabeth — Elisabeth / Elise / Lisa
+https://www.behindthename.com/name/tom-1 — Thomas / Tom
+https://www.behindthename.com/name/lina-2 — names ending in -lina / Lina
+https://www.behindthename.com/name/gentian — masculine given name Gentian
+https://www.behindthename.com/name/gwenae12lle — feminine Gwenaëlle
+https://www.behindthename.com/name/laurie — Laurie and related Laura forms
 
