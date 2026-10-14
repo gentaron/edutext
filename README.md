@@ -31,6 +31,10 @@ EDU Text は Eternal Dominion Universe（EDU）のストーリー・世界観テ
 
 [e16-world-canon.txt](e16-world-canon.txt)（[English](e16-world-canon_EN.txt)）を恒星・軌道・ハロー・昼夜・暦の基準とします。旧本文や補遺と競合する場合は、この正典を優先します。E暦は地球由来の行政暦で、惑星の公転周期とは独立です。
 
+### キャラクターの姓名・呼称
+
+[日本語の呼称一覧](character-names_JP.txt) / [English name reference](character-names_EN.txt) に、各人物のファースト・ミドル・ニックネーム・ラストと参照元をまとめています。既存呼称と今回追加した愛称を区別し、未記載の姓名要素や同名の別人物は注記しています。
+
 ### ファイル命名規則
 
 - **日本語**: `ファイル名.txt`（例: `LAYLA_JP.txt`）
@@ -78,6 +82,10 @@ EDU Text is the central content repository for story and lore text files of the 
 ### Astronomy and Environment Canon
 
 [e16-world-canon_EN.txt](e16-world-canon_EN.txt) ([日本語](e16-world-canon.txt)) governs stars, orbits, halo composition, day/night and calendars. It takes precedence over conflicting legacy text and supplements. The E calendar is Earth-derived and administrative, independent of the planet's orbital period.
+
+### Character Names and Forms of Address
+
+The [English reference](character-names_EN.txt) and [Japanese reference](character-names_JP.txt) list first names, middle names, familiar nicknames, last names and sources. They distinguish existing forms from newly assigned nicknames and annotate undocumented elements and separate identities.
 
 ### Naming Convention
 

@@ -1,0 +1,268 @@
+EDU Character Names and Nicknames
+Created: 2026-10-15
+Repository: gentaron/edutext
+Source baseline commit: a4e930e03a8cffad2103a6fcb03a787e73a0b723
+Japanese edition: character-names_JP.txt
+
+Purpose
+A separate reference for first names, middle names, familiar nicknames and last names, supporting consistent dialogue.
+Name values retain the original source script to avoid inventing undocumented romanizations.
+The Japanese and English editions contain the same entries and nicknames.
+
+Conventions
+1. New means a familiar nickname assigned in this reference. Existing means an attested familiar form adopted from the text.
+2. A nickname is not part of a formal name. Use established everyday names in ordinary dialogue, these nicknames among close acquaintances, and formal names or established names with titles in official settings.
+   Retain generation labels when necessary to distinguish inherited names.
+3. Not recorded means the referenced text does not explicitly supply that element; it does not assert that no such element exists.
+   A mononym is placed in the First / used-name field without asserting that it is a birth name.
+4. Multi-part names are provisionally arranged as first / central / final elements following source order.
+   This editorial split does not establish legal naming roles or family relationships where the source is silent.
+   Japanese family/given names are separated; フォン (von) and アル＝ are retained with family-name elements.
+5. Similar names do not establish identical people. Variants and inherited names are explained in notes.
+   ミユシャリ and ファリエル are two people; the grouped wording ミユシャリ・ファリエル is not treated as one full name.
+6. Existing hero names and titles remain available alongside familiar nicknames, including Layla's Pink Voltage.
+7. Organizations, states, facilities, ships, objects, generic species, unnamed extras and references to real people are excluded.
+   ボグダス・ジャベリン, SSレンジ and ドミニオン・ヴァーミリオン are organization or territory names, not personal names.
+   Crossover characters have a separate section.
+8. Sources support names and attested forms, not prior usage of newly assigned nicknames.
+   This reference supports future writing; it does not replace existing names or dialogue in story files.
+
+Entries: 186
+Format: pipe-separated tables in UTF-8 plain text.
+
+[主役]
+
+| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C001 | レイラ・ヴィレル・ノヴァ | レイラ | ヴィレル | レイ | ノヴァ | New | Existing hero name: Pink Voltage. Japanese ボルテージ / ヴォルテージ are spelling variants. | LAYLA_JP.txt |
+| C002 | ミナ・エウレカ・アーネスト | ミナ | エウレカ | ミーナ | アーネスト | New | Short form: ミナ・エウレカ (Mina Eureka). | worldedu.txt |
+| C003 | ケイト・パットン（初代） | ケイト | Not recorded | ケイ・ワン | パットン | New | Separate from the second generation; nickname distinguishes the founder. | kateclaudiaandlilliesteiner.txt |
+| C004 | ケイト・パットン（第二世代） | ケイト | Not recorded | ケイ | パットン | New | Separate successor bearing the same public name. | kateclaudiaandlilliesteiner.txt |
+| C005 | リリー・シュタイナー | リリー | Not recorded | リル・ワン | シュタイナー | New | Birth name: Lily Steiner. AURALIS public name: Lillie Ardent, first generation. | kateclaudiaandlilliesteiner.txt |
+| C006 | リリー・アーデント（第二世代） | リリー | Not recorded | リル | アーデント | New | Separate from the first-generation Lily Steiner. | kateclaudiaandlilliesteiner.txt |
+| C007 | ニニー・オッフェンバッハ | ニニー | Not recorded | ニニ | オッフェンバッハ | New | Also written ニニー・オッフェンバック in nebura.txt. | kateclaudiaandlilliesteiner.txt |
+| C008 | ゲンタロウ | ゲンタロウ | Not recorded | ゲン | Not recorded | Existing | Also written 弦太郎. ゲン (Gen) is an existing familiar name. | Gentaroworld.txt |
+| C009 | ジェン | ジェン | Not recorded | ジェニー | Not recorded | New | — | Jenstoryep1_JP.txt |
+| C010 | ミュー | ミュー | Not recorded | ミュ | Not recorded | New | ミュウ is an existing spelling variant; ミュ is the new nickname. | Myustory_JP.txt |
+| C011 | ジュン | ジュン | Not recorded | ジュンくん | Not recorded | New | Not identified with 城田淳. | Junandslime_JP.txt |
+| C012 | グエ | グエ | Not recorded | グー | Not recorded | New | — | gue.txt |
+| C013 | ティナ | ティナ | Not recorded | ティー | Not recorded | New | — | Auralishentai.txt |
+| C156 | ライラ | ライラ | Not recorded | ライラちゃん | Not recorded | New | — | Jenstoryep1_JP.txt |
+| C157 | ジャマル | ジャマル | Not recorded | ジャム | Not recorded | New | — | LAYLA_JP.txt |
+| C158 | マーカス | マーカス | Not recorded | マーク | Not recorded | New | — | LAYLA_JP.txt |
+
+[Iris and Crescent]
+
+| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C014 | アイリス | アイリス | Not recorded | アイ | Not recorded | New | Not identified with アイリス・ノヴァ, the Aloe Oil CEO. | IRIS_1.txt |
+| C015 | クラウス・フィオナ | クラウス | Not recorded | フィー | フィオナ | New | Usually called フィオナ. First/last roles are provisional, following source order. | IRIS_1.txt |
+| C016 | ゲオルグ・ジーマ | ゲオルグ | Not recorded | ジー | ジーマ | New | — | IRIS_1.txt |
+| C017 | サーペンティナ・レヴィリア | サーペンティナ | Not recorded | レヴィ | レヴィリア | Existing | Reverse order レヴィリア・サーペンティナ also occurs. Usually レヴィリア; familiar form レヴィ. Roles provisional. | IRIS_1.txt |
+| C018 | ガレス・ヴァンダール | ガレス | Not recorded | ガル | ヴァンダール | New | — | IRIS_1.txt |
+| C019 | リア・カーター | リア | Not recorded | リー | カーター | New | — | IRIS_1.txt |
+| C020 | アルフレッド・ジュース | アルフレッド | Not recorded | アルフ | ジュース | New | — | IRIS_2.txt |
+| C021 | ミカエル・ガブリエリ | ミカエル | Not recorded | ミカ | ガブリエリ | New | — | IRIS_2.txt |
+| C022 | セバスチャン・ヴァレリウス | セバスチャン | Not recorded | セブ | ヴァレリウス | New | — | IRIS_2.txt |
+| C023 | シェロン・ジェラス | シェロン | Not recorded | シェリー | ジェラス | New | — | IRIS_2.txt |
+| C024 | ワドリナ・レヴェルズ | ワドリナ | Not recorded | ワディ | レヴェルズ | New | — | IRIS_2.txt |
+| C025 | ニニギス・カラス | ニニギス | Not recorded | ニギ | カラス | New | — | IRIS_2.txt |
+| C026 | フレデリック・ギャビー | フレデリック | Not recorded | ギャビー | ギャビー | Existing | — | IRIS_2.txt |
+| C027 | アイナ・フォン・リースフェルト | アイナ | Not recorded | アイナちゃん | フォン・リースフェルト | New | フォン is retained as part of the family-name field. | IRIS_2.txt |
+| C028 | ピアトリーノ | ピアトリーノ | Not recorded | ピア | Not recorded | New | — | IRIS_2.txt |
+| C029 | エレナ | エレナ | Not recorded | エル | Not recorded | New | — | IRIS_2.txt |
+| C030 | イルミーゼ | イルミーゼ | Not recorded | イル | Not recorded | New | — | IRIS_2.txt |
+| C031 | レオン | レオン | Not recorded | レオ | Not recorded | New | — | IRIS_2.txt |
+| C032 | イェシバトー | イェシバトー | Not recorded | イェシ | Not recorded | New | — | IRIS_2.txt |
+| C033 | マリーナ・ボビン | マリーナ | Not recorded | マリー | ボビン | New | — | IRIS_3.txt |
+| C034 | アイク・ロペス | アイク | Not recorded | アイクン | ロペス | New | — | IRIS_3.txt |
+| C035 | イズミ | イズミ | Not recorded | イズ | Not recorded | New | — | IRIS_3.txt |
+| C036 | ヨニック | ヨニック | Not recorded | ヨニ | Not recorded | New | — | IRIS_3.txt |
+| C037 | ラストマン | ラストマン | Not recorded | ラス | Not recorded | New | — | IRIS_3.txt |
+| C038 | ギル | ギル | Not recorded | ギル坊 | Not recorded | New | — | IRIS_3.txt |
+| C039 | アザゼル・ヘクトパス | アザゼル | Not recorded | アズ | ヘクトパス | New | — | IRIS_3.txt |
+| C040 | カスチーナ・テンペスト | カスチーナ | Not recorded | カスティ | テンペスト | New | — | IRIS_3.txt |
+| C041 | ゴルディロックス・チューン | ゴルディロックス | Not recorded | ゴルディ | チューン | New | — | IRIS_3.txt |
+| C042 | ヴィヴィエッタ | ヴィヴィエッタ | Not recorded | ヴィヴィ | Not recorded | New | — | IRIS_3.txt |
+| C043 | カタリナ・カール | カタリナ | Not recorded | カティ | カール | New | — | IRIS_3.txt |
+| C044 | レイド・カキザキ | レイド | Not recorded | レイディ | カキザキ | New | — | IRIS_3.txt |
+| C045 | ジェイク・ガートナー | ジェイク | Not recorded | ジェイ | ガートナー | New | — | IRIS_3.txt |
+| C046 | ヴィクトル・フォン・オーガスタ | ヴィクトル | Not recorded | ヴィク | フォン・オーガスタ | New | フォン is retained as part of the family-name field. | IRIS_4.txt |
+| C047 | セレナ・ヴァレリア | セレナ | Not recorded | セレ | ヴァレリア | New | — | IRIS_4.txt |
+| C048 | ハンス・シュトルム | ハンス | Not recorded | ハン | シュトルム | New | — | IRIS_4.txt |
+| C049 | アリフ・アル＝ファティマ | アリフ | Not recorded | アリ | アル＝ファティマ | New | アル＝ファティマ is provisionally retained as one family-name unit. | IRIS_4.txt |
+| C151 | ミユシャリ | ミユシャリ | Not recorded | ミユ | Not recorded | New | — | IRIS_2.txt |
+| C152 | ファリエル | ファリエル | Not recorded | ファリ | Not recorded | New | — | IRIS_2.txt |
+| C153 | ホワイトノイズ | ホワイトノイズ | Not recorded | ホワイティ | Not recorded | New | — | IRIS_4.txt |
+| C181 | ボブリスティ | ボブリスティ | Not recorded | ボブ | Not recorded | New | — | IRIS_4.txt |
+
+[Jen's circle]
+
+| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C050 | ジョー | ジョー | Not recorded | ジョーイ | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C051 | エリサ | エリサ | Not recorded | エリー | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C052 | ヴァネッサ | ヴァネッサ | Not recorded | ヴァニー | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C053 | アイリーン | アイリーン | Not recorded | アイリー | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C054 | カリン | カリン | Not recorded | リン | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C055 | メナス | メナス | Not recorded | メン | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C056 | ナクセン | ナクセン | Not recorded | ナク | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C057 | リナ | リナ | Not recorded | リニー | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C058 | ローリー | ローリー | Not recorded | ロー | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C059 | ヴァイラ | ヴァイラ | Not recorded | ヴァイ | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C060 | ヨルミ | ヨルミ | Not recorded | ヨル | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C061 | マックス | マックス | Not recorded | マッキー | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C062 | ナクシーン | ナクシーン | Not recorded | ナクシー | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C063 | レイ | レイ | Not recorded | レイちゃん | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C064 | ザラ | ザラ | Not recorded | ザリー | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C065 | アリー | アリー | Not recorded | アリィ | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C066 | ジェシカ | ジェシカ | Not recorded | ジェス | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C067 | マリーナ（ジェン編） | マリーナ | Not recorded | リーナ | Not recorded | New | Attendant in Jen's stories; not merged with マリーナ・ボビン. | Jenstoryep2_JP.txt |
+| C154 | ロウ | ロウ | Not recorded | ロウくん | Not recorded | New | — | Jenstoryep2_JP.txt |
+| C155 | レイリア | レイリア | Not recorded | レリ | Not recorded | New | — | Jenstoryep2_JP.txt |
+
+[Jun and Sitra-Celes]
+
+| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C068 | エリーゼ | エリーゼ | Not recorded | リゼ | Not recorded | New | — | Junandslime_JP.txt |
+| C069 | カール | カール | Not recorded | カーリー | Not recorded | New | — | Junandslime_JP.txt |
+| C070 | シトラセレス | シトラセレス | Not recorded | シトラ | Not recorded | Existing | Sitra-Celes is kept intact; Celes is not asserted to be a surname or middle name. | sitra.txt |
+| C071 | エレジア | エレジア | Not recorded | エレ | Not recorded | New | — | sitra.txt |
+| C072 | リリア | リリア | Not recorded | リリ | Not recorded | New | — | sitra.txt |
+| C073 | マリア | マリア | Not recorded | マリ | Not recorded | New | — | sitra.txt |
+| C074 | メデューサ | メデューサ | Not recorded | メディ | Not recorded | New | — | sitra.txt |
+
+[Casteria and Earth]
+
+| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C075 | カステリア・グレンヴェルト | カステリア | Not recorded | カス | グレンヴェルト | New | — | kasuteriasan.txt |
+| C076 | ペレシア・セロ・タリンコフ | ペレシア | セロ | ペリ | タリンコフ | New | — | kasuteriasan.txt |
+| C077 | 赤津信二 | 信二 | Not recorded | シン | 赤津 | New | — | kasuteriasan.txt |
+| C078 | 明石悠馬 | 悠馬 | Not recorded | ユウ | 明石 | New | — | kasuteriasan.txt |
+| C079 | 上西菫 | 菫 | Not recorded | スミ | 上西 | New | — | kasuteriasan.txt |
+| C080 | 矢崎善 | 善 | Not recorded | ゼン | 矢崎 | New | — | kasuteriasan.txt |
+| C081 | 城田淳 | 淳 | Not recorded | ジュン坊 | 城田 | New | — | kasuteriasan.txt |
+| C082 | コフーリエ・エヴァンハルトハイム | コフーリエ | Not recorded | コフ | エヴァンハルトハイム | New | — | kasuteriasan.txt |
+| C083 | テルキンス・ホワイトバーグ | テルキンス | Not recorded | テルキー | ホワイトバーグ | New | — | kasuteriasan.txt |
+| C084 | ヤン・ヴォルシェ | ヤン | Not recorded | ヤンくん | ヴォルシェ | New | — | kasuteriasan.txt |
+| C085 | セバストレス・カーヴァ | セバストレス | Not recorded | セバス | カーヴァ | Existing | — | kasuteriasan.txt |
+| C086 | グアラド・ブレイ | グアラド | Not recorded | グア | ブレイ | New | — | kasuteriasan.txt |
+| C087 | トム・レズジア | トム | Not recorded | トミー | レズジア | New | — | kasuteriasan.txt |
+| C088 | マリー・テレジア | マリー | Not recorded | テリー | テレジア | New | Source does not distinguish a compound given name from first/last names; provisional split. | kasuteriasan.txt |
+| C089 | テルル・エルミート | テルル | Not recorded | テル | エルミート | New | — | kasuteriasan.txt |
+| C090 | クルル | クルル | Not recorded | クル | Not recorded | New | — | unified-history.txt |
+| C091 | ノルマ | ノルマ | Not recorded | ノン | Not recorded | New | — | kasuteriasan.txt |
+| C092 | ユイ | ユイ | Not recorded | ユイちゃん | Not recorded | New | — | kasuteriasan.txt |
+| C093 | アカリ | アカリ | Not recorded | アカ | Not recorded | New | — | kasuteriasan.txt |
+| C094 | ファデーエフ | ファデーエフ | Not recorded | ファディ | Not recorded | New | — | kasuteriasan.txt |
+| C159 | アルフェル | アルフェル | Not recorded | アルフェ | Not recorded | New | — | kasuteriasan.txt |
+
+[Diana's eras]
+
+| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C095 | ダイアナ | ダイアナ | Not recorded | ダイ | Not recorded | New | The first Diana; separate from Athena, the 27th, and Leona, the 28th candidate. | DianaWorld.txt |
+| C096 | アルブレヒト | アルブレヒト | Not recorded | アル | Not recorded | New | — | DianaWorld.txt |
+| C097 | アテナ・ダイアナ・インモータリス | アテナ | ダイアナ | テナ | インモータリス | New | 27th holder; ダイアナ is recorded as the central name element. | DianaWorld.txt |
+| C098 | レオナ・アルテミシア・ダイアナ | レオナ | アルテミシア | レオちゃん | ダイアナ | New | Candidate for the 28th; final ダイアナ is provisional and may be an inherited name. | DianaWorld.txt |
+| C099 | フリッツ | フリッツ | Not recorded | フリ | Not recorded | New | — | DianaWorld.txt |
+
+[History and civilizations]
+
+| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C100 | アルファ・ケイン | アルファ | Not recorded | アルフィ | ケイン | New | — | nebura.txt |
+| C101 | アレン・クロフォード | アレン | Not recorded | レン | クロフォード | New | — | nebura.txt |
+| C102 | セリア・ドミニクス | セリア | Not recorded | セリ | ドミニクス | New | — | nebura.txt |
+| C103 | ロナン・アーサ | ロナン | Not recorded | ロン | アーサ | New | — | nebura.txt |
+| C104 | エリオット・シュトラス | エリオット | Not recorded | エリオ | シュトラス | New | — | nebura.txt |
+| C105 | カトリーナ・ヴェイロス | カトリーナ | Not recorded | トリーナ | ヴェイロス | New | — | nebura.txt |
+| C106 | アイリス・ノヴァ | アイリス | Not recorded | ノヴィ | ノヴァ | New | Listed separately from the protagonist of the Iris stories. | nebura.txt |
+| C107 | アーサー・グリム | アーサー | Not recorded | アーティ | グリム | New | — | nebura.txt |
+| C108 | ヘリオス・ヴォラ | ヘリオス | Not recorded | ヘリ | ヴォラ | New | — | nebura.txt |
+| C109 | レイ・ヴァンデルト | レイ | Not recorded | ヴァン | ヴァンデルト | New | — | nebura.txt |
+| C110 | ダリウス・セヴァン | ダリウス | Not recorded | ダリ | セヴァン | New | — | nebura.txt |
+| C111 | ネイサン・コリンド | ネイサン | Not recorded | ネイト | コリンド | New | — | nebura.txt |
+| C112 | エリオス・ヴァルト | エリオス | Not recorded | ヴァル | ヴァルト | New | Identity with エリオス・ウォルド is unconfirmed. | nebura.txt |
+| C113 | アルゼン・カーリーン | アルゼン | Not recorded | アルゼ | カーリーン | New | — | nebura.txt |
+| C114 | カルロス・ヴァンダム | カルロス | Not recorded | カル | ヴァンダム | New | — | nebura.txt |
+| C115 | エリザベス・リンドバーグ | エリザベス | Not recorded | リズ | リンドバーグ | New | — | nebura.txt |
+| C116 | クロノ・ヴァーレント | クロノ | Not recorded | クロ | ヴァーレント | New | — | nebura.txt |
+| C117 | アドリアン・ラング | アドリアン | Not recorded | エイド | ラング | New | — | nebura.txt |
+| C118 | ラファエル・ドレイク | ラファエル | Not recorded | ラフ | ドレイク | New | — | nebura.txt |
+| C119 | グリム・ダルゴス | グリム | Not recorded | グリ | ダルゴス | New | — | nebura.txt |
+| C120 | マクシム・ヴェルド | マクシム | Not recorded | マク | ヴェルド | New | — | nebura.txt |
+| C121 | アゼル・ダルト | アゼル | Not recorded | アゼ | ダルト | New | — | nebura.txt |
+| C122 | リアナ・ソリス | リアナ | Not recorded | リアン | ソリス | New | — | nebura.txt |
+| C123 | グレイモンド・ハウザー | グレイモンド | Not recorded | グレイ | ハウザー | New | — | nebura.txt |
+| C124 | マドリス・カーネル | マドリス | Not recorded | マディ | カーネル | New | — | nebura.txt |
+| C125 | ライラ・ヴァーシティ | ライラ | Not recorded | ライ | ヴァーシティ | New | — | nebura.txt |
+| C126 | サムエル・ジョーンズ | サムエル | Not recorded | サム | ジョーンズ | New | — | nebura.txt |
+| C127 | ダリア・ケラルディ | ダリア | Not recorded | ダリィ | ケラルディ | New | — | nebura.txt |
+| C128 | リアム・クレイン | リアム | Not recorded | リアムくん | クレイン | New | — | nebura.txt |
+| C129 | サイラ・エルマン | サイラ | Not recorded | サイ | エルマン | New | — | nebura.txt |
+| C130 | カリム・ヴァルガス | カリム | Not recorded | カリムくん | ヴァルガス | New | — | nebura.txt |
+| C131 | タレス・アルティオス | タレス | Not recorded | タル | アルティオス | New | — | nebura.txt |
+| C132 | イザベラ・カーン | イザベラ | Not recorded | イジー | カーン | New | — | nebura.txt |
+| C133 | ヴァイロン・デアクス | ヴァイロン | Not recorded | ヴァイロ | デアクス | New | — | nebura.txt |
+| C134 | クインシアス（マスター） | クインシアス | Not recorded | クイン | Not recorded | New | Master is a title, not a first, middle or last name. | nebura.txt |
+| C135 | ヴェルナ・カイラス | ヴェルナ | Not recorded | ヴェル | カイラス | New | — | nebura.txt |
+| C136 | ティムール・シャー | ティムール | Not recorded | ティム | シャー | New | — | worldedu.txt |
+| C137 | リリス・ヴェイン | リリス | Not recorded | リス | ヴェイン | New | — | worldedu.txt |
+| C138 | エル・フォルハウス | エル | Not recorded | エルさん | フォルハウス | New | — | worldedu.txt |
+| C139 | エラナ・セレス | エラナ | Not recorded | ラナ | セレス | New | — | worldedu.txt |
+| C140 | シルヴィア・クロウ | シルヴィア | Not recorded | シルヴィ | クロウ | New | — | worldedu.txt |
+| C141 | アリア・ソル | アリア | Not recorded | アリちゃん | ソル | New | — | worldedu.txt |
+| C142 | マリア・フォルハウス | マリア | Not recorded | マリアさん | フォルハウス | New | — | worldedu.txt |
+| C143 | アヤカ・リン | アヤカ | Not recorded | アヤ | リン | New | — | worldedu.txt |
+| C144 | カーラ・ヴェルム | カーラ | Not recorded | カーリーさん | ヴェルム | New | — | worldedu.txt |
+| C145 | エリオス・ウォルド | エリオス | Not recorded | ウォル | ウォルド | New | Identity with エリオス・ヴァルト is unconfirmed. | worldedu.txt |
+| C160 | リンダ | リンダ | Not recorded | リンディ | Not recorded | New | — | nebura.txt |
+| C161 | ヨシロウ | ヨシロウ | Not recorded | ヨシ | Not recorded | New | — | nebura.txt |
+| C162 | クレメンタイン | クレメンタイン | Not recorded | クレム | Not recorded | New | — | nebura.txt |
+| C163 | オメガ＝ユリシス | オメガ＝ユリシス | Not recorded | ユリ | Not recorded | New | Kept as one public name; not merged with Justice Seven's オメガ. | nebura.txt |
+| C164 | リサ | リサ | Not recorded | リッサ | Not recorded | New | — | nebura.txt |
+| C165 | サイファー | サイファー | Not recorded | サイフィ | Not recorded | New | — | nebura.txt |
+| C166 | イシュロス | イシュロス | Not recorded | イシュ | Not recorded | New | — | nebura.txt |
+| C167 | ヴァルファ | ヴァルファ | Not recorded | ヴァルフ | Not recorded | New | — | nebura.txt |
+| C168 | クヴァリス | クヴァリス | Not recorded | クヴァ | Not recorded | New | — | nebura.txt |
+| C169 | ジェスター | ジェスター | Not recorded | ジェス太 | Not recorded | New | — | nebura.txt |
+| C170 | フロイド | フロイド | Not recorded | フロイ | Not recorded | New | — | nebura.txt |
+| C171 | タウラス | タウラス | Not recorded | タウ | Not recorded | New | — | nebura.txt |
+| C172 | アリエス | アリエス | Not recorded | アリス | Not recorded | New | — | nebura.txt |
+| C173 | オーロラ | オーロラ | Not recorded | ローラ | Not recorded | New | — | nebura.txt |
+| C174 | アリスタス | アリスタス | Not recorded | アリス太 | Not recorded | New | — | nebura.txt |
+| C175 | ケイン（ジャスティスセブン） | ケイン | Not recorded | ケイくん | Not recorded | New | Not merged with アルファ・ケイン. | nebura.txt |
+| C176 | シグナス | シグナス | Not recorded | シグ | Not recorded | New | — | nebura.txt |
+| C177 | エリシオン（ジャスティスセブン） | エリシオン | Not recorded | エリシ | Not recorded | New | The named member, not a civilization. | nebura.txt |
+| C178 | オメガ（ジャスティスセブン） | オメガ | Not recorded | オメ | Not recorded | New | Not merged with オメガ＝ユリシス. | nebura.txt |
+| C179 | カリスト | カリスト | Not recorded | カリス | Not recorded | New | — | nebura.txt |
+
+[Gentaro's circle]
+
+| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C146 | オーローン | オーローン | Not recorded | ローン | Not recorded | New | — | Gentaroworld.txt |
+| C147 | タルダー | タルダー | Not recorded | タルダ | Not recorded | New | — | Gentaroworld.txt |
+| C148 | アーパ | アーパ | Not recorded | アー | Not recorded | New | — | Gentaroworld.txt |
+| C149 | アヤカ（ゲンタロウ編） | アヤカ | Not recorded | アヤちゃん | Not recorded | New | Identity with アヤカ・リン is unconfirmed. | Gentaroworld.txt |
+| C180 | Mari Takasugi | Mari | Not recorded | マリィ | Takasugi | New | A member of Spandexer; spelling retained from the source. | Gentaroworld.txt |
+
+[Layla's circle]
+
+| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C150 | イーライ | イーライ | Not recorded | イー | Not recorded | New | — | LAYLA_JP.txt |
+
+[Crossover appearances]
+
+| ID | Character / identity | First / used name | Middle | Nickname | Last | Nickname status | Notes | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C182 | ニコ・ロビン | ロビン | Not recorded | ロビ | ニコ | New | Crossover name occurring in the text. This nickname is for EDU usage and does not redefine the source work's canon. | Gentaroworld.txt |
+| C183 | ナミ | ナミ | Not recorded | ナミちゃん | Not recorded | New | Crossover name occurring in the text. This nickname is for EDU usage and does not redefine the source work's canon. | Gentaroworld.txt |
+| C184 | 春野サクラ | サクラ | Not recorded | サク | 春野 | New | Crossover name occurring in the text. This nickname is for EDU usage and does not redefine the source work's canon. | Gentaroworld.txt |
+| C185 | 松本乱菊 | 乱菊 | Not recorded | ラン | 松本 | New | Crossover name occurring in the text. This nickname is for EDU usage and does not redefine the source work's canon. | Gentaroworld.txt |
+| C186 | ボア・ハンコック | ハンコック | Not recorded | ハンちゃん | ボア | New | Crossover name occurring in the text. This nickname is for EDU usage and does not redefine the source work's canon. | gue.txt |
+
