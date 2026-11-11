@@ -1,0 +1,80 @@
+{
+  "$schema": "https://raw.githubusercontent.com/gentaron/infocollect/HEAD/ecosystem/schema.json",
+  "schema": 1,
+  "name": "edutext",
+  "group": "edu",
+  "groupLabel": "EDU 宇宙",
+  "status": "active",
+  "role": "EDU の物語と設定の原典（テキスト）",
+  "stack": "Markdown",
+  "produces": [
+    "lore"
+  ],
+  "consumes": [],
+  "upstream": [],
+  "downstream": [
+    {
+      "repo": "edu",
+      "flows": [
+        "lore"
+      ],
+      "url": "https://github.com/gentaron/edu"
+    },
+    {
+      "repo": "eurekaspace",
+      "flows": [
+        "lore"
+      ],
+      "url": "https://github.com/gentaron/eurekaspace"
+    },
+    {
+      "repo": "irisworlds",
+      "flows": [
+        "lore"
+      ],
+      "url": "https://github.com/gentaron/irisworlds"
+    },
+    {
+      "repo": "laylaland",
+      "flows": [
+        "lore"
+      ],
+      "url": "https://github.com/gentaron/laylaland"
+    },
+    {
+      "repo": "edunft",
+      "flows": [
+        "lore"
+      ],
+      "url": "https://github.com/gentaron/edunft"
+    },
+    {
+      "repo": "gamemina",
+      "flows": [
+        "lore"
+      ],
+      "url": "https://github.com/gentaron/gamemina"
+    }
+  ],
+  "siblings": [
+    "image",
+    "edu",
+    "eurekaspace",
+    "irisworlds",
+    "laylaland",
+    "edunft",
+    "gamemina"
+  ],
+  "predecessors": [
+    "sakuranovel"
+  ],
+  "hub": {
+    "repo": "https://github.com/gentaron/infocollect",
+    "map": "https://github.com/gentaron/infocollect/blob/HEAD/ecosystem/README.md",
+    "kb": "https://raw.githubusercontent.com/gentaron/infocollect/HEAD/docs/kb",
+    "mcp": [
+      "infocollect-kb",
+      "forge"
+    ]
+  }
+}

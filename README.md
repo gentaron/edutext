@@ -112,3 +112,17 @@ The [English reference](character-names_EN.txt) and [Japanese reference](charact
 ## License
 
 [MIT](LICENSE)
+
+<!-- ecosystem:begin (自動生成: gentaron/infocollect の ecosystem/registry.json から。手で直さない) -->
+
+## つながり
+
+gentaron のリポジトリ群のうち **EDU 宇宙** の一つ。EDU の物語と設定の原典（テキスト）。
+
+- **渡す**: [edu](https://github.com/gentaron/edu)（EDU の原典）、[eurekaspace](https://github.com/gentaron/eurekaspace)（EDU の原典）、[irisworlds](https://github.com/gentaron/irisworlds)（EDU の原典）、[laylaland](https://github.com/gentaron/laylaland)（EDU の原典）、[edunft](https://github.com/gentaron/edunft)（EDU の原典）、[gamemina](https://github.com/gentaron/gamemina)（EDU の原典）
+- **同じ島**: [image](https://github.com/gentaron/image)
+- **前身**: [sakuranovel](https://github.com/gentaron/sakuranovel)
+
+全体の地図 → [ecosystem](https://github.com/gentaron/infocollect/blob/HEAD/ecosystem/README.md)
+
+<!-- ecosystem:end -->
