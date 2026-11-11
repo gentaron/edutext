@@ -41,6 +41,10 @@ EDU Text は Eternal Dominion Universe（EDU）のストーリー・世界観テ
 - **英語**: `ファイル名_EN.txt`（例: `IRIS_1_EN.txt`）
 - または `_JP` / `_EN` サフィックスで言語を区別
 
+### 外部サイトでの作品紹介
+
+[EDU 外部サイト掲載ガイド](channel-guide.md)に、外部プロフィールで使う世界設定、人物名・肖像の参照先、6サイト向けの紹介文をまとめています。
+
 ### 利用方法
 
 他リポジトリからの参照例（laylaland `story.html`）:
@@ -91,6 +95,10 @@ The [English reference](character-names_EN.txt) and [Japanese reference](charact
 
 - **Japanese**: `filename_JP.txt` (e.g., `LAYLA_JP.txt`)
 - **English**: `filename_EN.txt` (e.g., `IRIS_1_EN.txt`)
+
+### Publishing on external platforms
+
+See the [EDU publishing guide](channel-guide.md) for the shared premise, character name and portrait references, and profile copy for six platforms.
 
 ### Consumers
 
